@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="color-scheme" content="light">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>지텔프 단어 DAY 06 퀴즈</title>
+<style>
+body{font-family:system-ui,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;max-width:880px;margin:0 auto;padding:20px;line-height:1.6;color:#1f2937;background:#fff}
+h1{font-size:24px;margin-bottom:4px}
+.sub{color:#6b7280;font-size:14px;margin-top:0}
+h2{font-size:19px;border-bottom:2px solid #0f766e;padding-bottom:4px;margin-top:36px}
+.score{font-weight:bold;color:#0f766e;margin-left:10px;font-size:15px}
+.q{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:12px 14px;margin:10px 0}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:8px}
+button{padding:8px 10px;border:1px solid #cbd5e1;border-radius:6px;background:#fff;cursor:pointer;text-align:left;font-size:14px;font-family:inherit}
+button:hover{background:#f0fdfa}
+button.ok{background:#d1fae5;border-color:#10b981}
+button.bad{background:#fee2e2;border-color:#ef4444}
+.exp{display:none;margin-top:8px;font-size:13px;color:#374151;background:#f3f4f6;padding:6px 8px;border-radius:6px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff}
+th,td{border:1px solid #e5e7eb;padding:6px 8px;vertical-align:top;text-align:left}
+th{background:#ecfdf5}
+ul{padding-left:20px}
+li{margin:4px 0}
+.box{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:12px 16px}
+@media (max-width:600px){.opts{grid-template-columns:1fr}}
+@media print{.quiz{display:none}button{display:none}}
+
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{overflow-wrap:break-word}
+a{word-break:break-word}
+@media (max-width:600px){
+body{padding:14px 12px}
+h1{font-size:20px}h2{font-size:17px}
+button{min-height:44px;font-size:15px;padding:10px 12px}
+.q{padding:10px 12px}
+table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;font-size:12.5px}
+th,td{padding:5px 8px;word-break:keep-all;overflow-wrap:normal;white-space:normal}
+th:nth-child(2),td:nth-child(2){white-space:nowrap}
+.box{padding:10px 12px}
+}
+</style>
+</head>
+<body>
+
+<h1>지텔프 단어 DAY 06 퀴즈 · 핵심요약</h1>
+<p class="sub">출처: G-TELP VOCA DAY 06 (교재 98~107페이지 + 데일리 테스트·패러프레이징) · 단어 01~50 전부 포함 · 보기를 누르면 바로 채점됩니다.</p>
+
+<nav class="quiz">
+  <a href="#p1">Part1 영→뜻</a>
+  <a href="#p2">Part2 뜻→영</a>
+  <a href="#p3">Part3 동의어</a>
+  <a href="#p4">Part4 헷갈리는 단어</a>
+  <a href="#p5">Part5 데일리테스트·출제유형</a>
+  <a href="#sum">핵심요약</a>
+</nav>
+
+<h2 class="quiz">Part 1. 영단어 → 뜻 고르기 <span class="score" id="sc-p1">0 / 0</span></h2>
+<div id="p1" class="quiz"></div>
+
+<h2 class="quiz" id="p2">Part 2. 뜻 → 영단어 고르기 <span class="score" id="sc-p2">0 / 0</span></h2>
+<div id="p2b" class="quiz"></div>
+
+<h2 class="quiz" id="p3">Part 3. 동의어(유의어) 고르기 <span class="score" id="sc-p3">0 / 0</span></h2>
+<div id="p3b" class="quiz"></div>
+
+<h2 class="quiz" id="p4">Part 4. 헷갈리기 쉬운 단어 구별 <span class="score" id="sc-p4">0 / 0</span></h2>
+<div id="p4b" class="quiz"></div>
+
+<h2 class="quiz" id="p5">Part 5. 데일리 테스트 & 지텔프 출제 유형 <span class="score" id="sc-p5">0 / 0</span></h2>
+<div id="p5b" class="quiz"></div>
+
+<h2 id="sum">핵심요약본</h2>
+
+<div class="box">
+<h3>1. 동의어 묶음 (시험 빈출)</h3>
+<ul>
+  <li>conduct · lead → <b>진행하다</b> / conduct · carry out · perform → <b>수행하다</b></li>
+  <li>confident · convinced · certain → <b>확신하는</b> / given · considering → <b>~을 감안하면</b></li>
+  <li>approximately · almost · nearly · roughly · about · around → <b>대략</b></li>
+  <li>absorb · digest · soak up → <b>흡수하다</b> / exhibit · display · present → <b>전시하다</b> / exhibit · show · reveal → <b>보이다</b></li>
+  <li>accuse · blame · denounce → <b>비난하다</b> / apologize · express regret → <b>사과하다</b> / cease · finish · stop · end · halt → <b>중단하다</b></li>
+  <li>accurate · precise · exact · correct → <b>정확한</b> / equivalent · equal · comparable · identical → <b>동등한</b></li>
+  <li>frequent(형) · repeated · common · recurrent → <b>잦은</b> / frequent(동) · visit · patronize → <b>자주 방문하다</b></li>
+  <li>administrative · executive · managerial → <b>행정적인</b> / implement · enforce · enact · execute · carry out → <b>시행하다</b></li>
+  <li>locate · discover · find → <b>위치를 찾다</b> / anticipate · expect · predict · forecast → <b>예상하다</b></li>
+  <li>literally · exactly · actually → <b>말 그대로</b> / complicated · difficult · complex · intricate → <b>복잡한</b></li>
+  <li>inform · notify · tell · advise → <b>알리다</b> / adequate · enough · suitable · sufficient → <b>충분한</b></li>
+  <li>devastate · destroy · batter · ruin · wreck → <b>파괴하다</b> / massive · huge · enormous · gigantic · vast → <b>거대한</b></li>
+  <li>acknowledge · admit · accept → <b>인정하다</b> / acknowledge · recognize → <b>감사를 표하다</b></li>
+  <li>liquid · fluid → <b>액체</b> / comprehensive · thorough · extensive · broad → <b>포괄적인</b></li>
+  <li>enclose · include → <b>동봉하다</b> / enclose · surround · cover → <b>둘러싸다</b></li>
+  <li>adapt · change · modify · adjust · alter · convert → <b>개조하다, 바꾸다</b> / adjust · change · adapt · alter · modify → <b>조절하다</b></li>
+  <li>chemical · substance → <b>화학물질</b> / reduce · cut · lower · decrease · diminish → <b>줄이다</b> / affordable · inexpensive · reasonable · moderate → <b>저렴한</b></li>
+  <li>entry · access · admission → <b>입장</b> / entry · record · registration → <b>입력</b></li>
+  <li>fix · repair · mend → <b>고치다</b> / fix · attach · tie · secure → <b>고정시키다</b></li>
+  <li>admire · respect · honor · appreciate → <b>존경하다</b> / comprise · include · consist of → <b>구성되다</b> / comprise · form · constitute → <b>구성하다</b></li>
+  <li>impressive · prodigious · dazzling → <b>인상적인</b> / project · expect · estimate · forecast · predict → <b>예상하다</b></li>
+  <li>advantage · edge · benefit → <b>이점</b> / assist · help · support · aid → <b>돕다</b></li>
+  <li>command · order · compel · direct → <b>명령하다</b> / exhausted · tired · fatigued → <b>지친</b></li>
+  <li>disrupt · interrupt · disturb · hamper · unsettle → <b>방해하다</b> / verify · check · prove · confirm → <b>확인하다</b></li>
+  <li>appreciate · be grateful for → <b>고마워하다</b> / appreciate · value · respect · admire → <b>진가를 알다</b> / appreciate · increase · rise → <b>(가치가) 오르다</b></li>
+  <li>consent(동) · agree · concur → <b>동의하다</b> / consent(명) · agreement · approval · assent → <b>동의, 합의</b></li>
+</ul>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>2. 헷갈리기 쉬운 단어 (구별 포인트)</h3>
+<ul>
+  <li><b>accurate vs accuracy</b> — 정확한(형) / 정확성(명).</li>
+  <li><b>adequate vs inadequate</b> — 적절한·충분한 / 부적절한·불충분한.</li>
+  <li><b>exhibit vs exhibition</b> — exhibit은 동사(전시하다·보이다)이자 명사(전시품), exhibition은 전시회.</li>
+  <li><b>adjust vs adapt</b> — 둘 다 '적응하다'로 쓰이지만 adjust = 조절하다, adapt = 개조하다·각색하다.</li>
+  <li><b>adapt vs adopt</b> — adapt는 적응하다·개조하다, adopt는 채택하다·입양하다(참고, 교재 외).</li>
+  <li><b>inform vs informal</b> — inform은 알리다, informal은 비공식적인(참고, 교재 외).</li>
+  <li><b>advantage vs disadvantage</b> — 이점 / 불리한 점.</li>
+  <li><b>afford vs affordable</b> — afford는 ~을 감당할 여유가 있다(동사), affordable은 저렴한(형용사).</li>
+  <li><b>competitive vs competitor</b> — 경쟁력 있는(형) / 경쟁자(명).</li>
+  <li><b>appreciate vs appreciation vs appreciative</b> — 고마워하다(동) / 감사·감상(명) / 고마워하는(형).</li>
+  <li><b>chemical vs chemist vs chemistry</b> — 화학물질 / 화학자 / 화학.</li>
+  <li><b>vacant vs vacancy</b> — 비어 있는(형) / 빈자리·공석(명).</li>
+  <li><b>locate vs location</b> — 위치를 찾아내다(동) / 장소·지점(명). be located = 위치하다.</li>
+  <li><b>apologize vs apology</b> — 사과하다(동) / 사과(명).</li>
+  <li><b>implement vs implementation</b>, <b>anticipate vs anticipation</b> — 동사 / 명사 쌍.</li>
+  <li><b>project 발음</b> — 동사 [prədʒékt](예상하다), 명사 [prádʒekt](프로젝트).</li>
+</ul>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>3. 다의어 (뜻이 여러 개인 단어)</h3>
+<ul>
+  <li><b>exhibit</b> — 전시하다 / 보이다·나타내다 / 전시회·전시품</li>
+  <li><b>frequent</b> — 잦은(형) / 자주 방문하다(동)</li>
+  <li><b>enclose</b> — 동봉하다 / 둘러싸다 · <b>entry</b> — 입장 / 입력 / 응모작</li>
+  <li><b>adapt</b> — 개조하다 / 적응하다 / 각색하다 · <b>adjust</b> — 조절하다 / 적응하다</li>
+  <li><b>fix</b> — 고치다·해결하다 / 고정시키다 · <b>comprise</b> — 구성되다 / 차지하다</li>
+  <li><b>project</b> — 예상하다(동) / 프로젝트·사업(명) · <b>command</b> — 명령하다 / 지휘 / (언어) 능력</li>
+  <li><b>acknowledge</b> — 인정하다·승인하다 / 감사를 표하다</li>
+  <li><b>appreciate</b> — 고마워하다 / 진가를 알다 / (가치가) 오르다</li>
+  <li><b>consent</b> — 동의하다(동) / 동의·합의(명) · <b>liquid</b> — 액체(명) / 액체의(형) · <b>chemical</b> — 화학물질(명) / 화학의(형)</li>
+</ul>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>4. 품사 & 파생어 체크</h3>
+<ul>
+  <li>confident → confidence(명) / approximately → approximate(형) / exhibit → exhibition(명)</li>
+  <li>vacant → vacancy(명) / apologize → apology(명) / accurate → accuracy(명)</li>
+  <li>frequent → frequency(명), frequently(부) / administrative → administration(명), administer(동)</li>
+  <li>implement → implementation(명) / locate → location(명) / anticipate → anticipation(명)</li>
+  <li>literally → literal(형) / complicated → complication(명) / adequate → inadequate(형)</li>
+  <li>acknowledge → acknowledgment(명) / comprehensive → comprehend(동) / enclose → enclosed(형)</li>
+  <li>adapt → adaptation(명) / chemical → chemistry(명), chemist(명) / reduce → reduction(명) / affordable → afford(동)</li>
+  <li>distinct → distinction(명) / entry → enter(동) / fix → fixed(형) / admire → admirable(형)</li>
+  <li>impressive → impression(명), impress(동) / adjust → adjustment(명) / advantage → disadvantage(명)</li>
+  <li>assist → assistance(명) / disrupt → disruptive(형), disruption(명) / verify → verification(명)</li>
+  <li>appreciate → appreciation(명), appreciative(형) / competitive → competitor(명)</li>
+</ul>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>5. 패러프레이징 빈출 표현 (교재 109p)</h3>
+<table>
+<tr><th>원래 표현</th><th>바꾼 표현</th><th>원래 표현</th><th>바꾼 표현</th></tr>
+<tr><td>death (죽음)</td><td>afterlife (사후 세계)</td><td>high-technology (첨단 기술)</td><td>advanced technologies (첨단 기술)</td></tr>
+<tr><td>expire (만료되다)</td><td>no longer valid (더 이상 유효하지 않은)</td><td>defend (방어하다)</td><td>stand up against (저항하다)</td></tr>
+<tr><td>endangered (멸종 위기에 처한)</td><td>at risk (위험한 상태인)</td><td>guarantee security (안전을 보장하다)</td><td>stable (안정적인)</td></tr>
+<tr><td>enclosed (동봉된)</td><td>attached (첨부된)</td><td>fight off (물리치다)</td><td>resist (저항하다)</td></tr>
+<tr><td>excuse (변명, 핑계)</td><td>reason (핑계, 이유)</td><td>hunt the prey (먹이를 사냥하다)</td><td>catch the prey (먹이를 잡다)</td></tr>
+<tr><td>examine (조사하다)</td><td>analyze (분석하다)</td><td>failure (실패)</td><td>inability (무능, ~하지 못함)</td></tr>
+<tr><td>entice (유혹하다)</td><td>attract (끌어당기다)</td><td>ingest (섭취하다)</td><td>intake (섭취)</td></tr>
+<tr><td>ensure (확실히 하다)</td><td>make sure (~하도록 하다)</td><td></td><td></td></tr>
+</table>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>6. 교재 여백 메모에서 정리한 추가 단어 (손글씨를 읽어 정리 — 틀린 부분이 있으면 알려주세요)</h3>
+<ul>
+  <li>interrupt(방해하다, 끼어들다) · disturb(방해하다) · hamper(방해하다) · unsettle(불안하게 하다) — disrupt의 동의어 묶음</li>
+  <li>Do not disturb(방해하지 마세요) · I'm sorry to interrupt you(방해해서 죄송합니다) · Bad weather hampered the rescue effort(악천후가 구조 활동을 방해했다)</li>
+  <li>consent = approval(승인) · assent(동의) · approval of the plan(계획의 승인) · get approval(승인을 받다) · assent to proposal(제안에 동의하다)</li>
+  <li>confirm(확인하다, 확정하다) — verify의 동의어 · exhausted(지친) · tired · fatigued</li>
+</ul>
+</div>
+
+<h2>학습 팁</h2>
+<div class="box">
+<ul>
+  <li>동사 동의어(adjust·adapt·alter·modify, assist·help·support·aid)는 <b>묶음</b>으로 함께 외우기.</li>
+  <li>한 단어에 여러 품사/뜻이 있는 단어(exhibit, frequent, fix, comprise, project, appreciate)는 <b>품사와 예문</b>을 같이 적어 두기.</li>
+  <li>지텔프 동의어 출제 유형은 문장 속 뜻을 먼저 파악하기 — conduct a workshop = lead, acknowledge support = recognize, fix a tire = repair.</li>
+  <li>파생어 쌍(accurate/accuracy, vacant/vacancy, apologize/apology)은 <b>품사 구별</b>이 핵심.</li>
+  <li>틀린 문제는 다음 날 Part 4와 Part 1부터 다시 풀어보기.</li>
+</ul>
+</div>
+
+<script>
+const W=[
+{e:"conduct",p:"동",k:"수행하다, 진행하다",s:"lead",n:"conduct a detailed study(상세한 연구를 수행하다) · 지텔프: conduct = lead (진행하다) · 'conduct a workshop(워크숍을 진행하다)'"},
+{e:"confident",p:"형",k:"자신감 있는, 확신하고 있는",s:"convinced",n:"confidence(명: 자신감, 확신) · be confident that ~(~라고 확신하다) · quite confident about life(인생에 대해 꽤 자신 있는) · sure, certain과 유사"},
+{e:"given",p:"전",k:"~라는 것을 감안하면",s:"considering",n:"Given that it is raining(비가 온다는 것을 고려하면) · given that = considering that"},
+{e:"instead",p:"부",k:"대신에",s:"alternatively",n:"I was going to watch a movie but went for a walk instead(영화를 보려 했지만 대신 산책을 갔다) · instead of ~(~ 대신에) · 교재에 동의어 표기 없음(alternatively는 참고용)"},
+{e:"approximately",p:"부",k:"대략",s:"about",n:"approximate(형: 대략적인, 근사치의) · for approximately 15 minutes(대략 15분 동안) · almost, nearly, roughly, about, around와 유사"},
+{e:"absorb",p:"동",k:"흡수하다, 빨아들이다",s:"digest",n:"absorb 30 grams of protein in one meal(한 끼에 단백질 30그램을 흡수하다) · soak up과 유사"},
+{e:"exhibit",p:"동/명",k:"전시하다 / 보이다, 나타내다 / 전시회, 전시품",s:"display",n:"exhibition(명: 전시회) · exhibit symptoms of stress(스트레스 증상을 보이다 = show) · a photo exhibit(사진 전시회) · 전시하다 = display, present / 보이다 = show, reveal"},
+{e:"accuse",p:"동",k:"비난하다, 고소하다",s:"blame",n:"accuse Kevin of spreading false information(케빈이 잘못된 정보를 퍼뜨렸다고 비난하다) · accuse A of B(A를 B로 비난하다) · denounce와 유사"},
+{e:"apologize",p:"동",k:"사과하다",s:"express regret",n:"apology(명: 사과) · apologize for the mistake(잘못을 사과하다)"},
+{e:"cease",p:"동",k:"중단하다, 멈추다",s:"halt",n:"cease production of consumer goods(소비재 생산을 중단하다) · finish, stop, end, halt와 유사"},
+{e:"vacant",p:"형",k:"비어 있는, 공석의",s:"empty",n:"vacancy(명: 빈자리, 공석, 결원; (호텔 등의) 빈 방) · buy the vacant lot(공터를 매입하다) · 교재에 동의어 표기 없음(empty는 참고용)"},
+{e:"accurate",p:"형",k:"정확한",s:"precise",n:"accuracy(명: 정확, 정확성) · an accurate description of the situation(상황의 정확한 묘사) · exact, correct와 유사"},
+{e:"equivalent",p:"형",k:"동등한, 맞먹는",s:"equal",n:"$1 is equivalent to about 1,300 won(1달러는 약 1,300원에 상당한다) · comparable, identical과 유사"},
+{e:"frequent",p:"형/동",k:"잦은, 빈번한 / 자주 방문하다",s:"common",n:"frequency(명: 빈도) · frequently(부: 자주, 빈번히) · the most frequent cause of head injuries(머리 부상의 가장 빈번한 원인) · 동사 = visit, patronize (지텔프: frequented = visited)"},
+{e:"administrative",p:"형",k:"행정적인, 관리의",s:"managerial",n:"administration(명: 행정, 관리) · administer(동: 시행하다, 관리하다) · provide administrative support(행정적인 지원을 제공하다) · executive와 유사"},
+{e:"implement",p:"동",k:"실행하다, 시행하다",s:"carry out",n:"implementation(명: 실행, 시행) · implement tax reform(세제 개혁을 시행하다) · enforce, enact, execute와 유사"},
+{e:"locate",p:"동",k:"~의 위치를 찾아내다",s:"find",n:"location(명: 장소, 지점) · try to locate the missing girl(실종된 여자아이의 행방을 찾으려 노력하다) · be located = 위치하다 · discover와 유사"},
+{e:"anticipate",p:"동",k:"예감하다, 예상하다",s:"expect",n:"anticipation(명: 기대, 예감) · anticipate a lot of participants(많은 참석자를 예상하다) · predict, forecast와 유사"},
+{e:"literally",p:"부",k:"문자 그대로, 말 그대로",s:"actually",n:"literal(형: 문자 그대로의, 말 그대로의) · literally about to die of hunger(말 그대로 굶어 죽을 지경이었다) · exactly와 유사"},
+{e:"complicated",p:"형",k:"복잡한",s:"complex",n:"complication(명: 복잡, 복잡한 문제) · the complicated process of buying a home(집을 사는 복잡한 과정) · difficult, intricate와 유사"},
+{e:"inform",p:"동",k:"통보하다, 알리다",s:"notify",n:"inform A that ~(A에게 ~라고 알리다) · Erica informed the tenants that the rent is due tomorrow · tell, advise와 유사"},
+{e:"adequate",p:"형",k:"적절한, 충분한",s:"sufficient",n:"inadequate(형: 부적절한, 불충분한) · read under adequate lighting(적절한 조명 아래서 책을 읽다) · enough, suitable과 유사"},
+{e:"devastate",p:"동",k:"완전히 파괴하다, 황폐화시키다",s:"ruin",n:"The floods devastated the crops(홍수로 농작물이 황폐해졌다) · destroy, batter, wreck와 유사"},
+{e:"massive",p:"형",k:"거대한, 대규모의",s:"huge",n:"erect a massive statue(거대한 동상을 세우다) · enormous, gigantic, vast와 유사"},
+{e:"acknowledge",p:"동",k:"인정하다, 승인하다 / 감사를 표하다",s:"admit",n:"acknowledgment(명: 인정, 승인; 감사, 사례) · Gary acknowledged that he was wrong · 인정하다 = admit, accept, recognize · 지텔프: acknowledge = recognize"},
+{e:"liquid",p:"명/형",k:"액체 / 액체의",s:"fluid",n:"spill liquid soap all over the floor(바닥에 액체 비누를 쏟다) · 명사·형용사 모두 같은 형태"},
+{e:"comprehensive",p:"형",k:"포괄적인, 광범위한",s:"thorough",n:"comprehend(동: 파악하다, 이해하다) · carry out a comprehensive study(포괄적인 연구를 수행하다) · extensive, broad와 유사"},
+{e:"enclose",p:"동",k:"동봉하다 / 둘러싸다, 에워싸다",s:"surround",n:"enclosed(형: 동봉된) · enclose the area with a fence(그 구역을 울타리로 둘러싸다) · Enclosed is a copy of my résumé(제 이력서 사본을 동봉합니다) · 동봉 = include"},
+{e:"adapt",p:"동",k:"개조하다, 바꾸다 / 적응하다 / 각색하다",s:"modify",n:"adaptation(명: 개조, 변경; 각색, 적응) · adapt the recipe to use less sugar(설탕을 덜 쓰도록 조리법을 수정하다) · adapted into a movie(영화로 각색되다) · change, adjust, alter, convert와 유사"},
+{e:"chemical",p:"명/형",k:"화학물질 / 화학의",s:"substance",n:"chemistry(명: 화학) · chemist(명: 화학자) · contain toxic chemicals(유독성 화학물질을 함유하다)"},
+{e:"reduce",p:"동",k:"낮추다, 줄이다",s:"decrease",n:"reduction(명: 감소, 삭감) · reduce the amount of waste(폐기물의 양을 줄이다) · cut, lower, diminish와 유사"},
+{e:"affordable",p:"형",k:"저렴한",s:"inexpensive",n:"afford(동: ~을 감당할 여유가 있다) · have access to affordable health care(저렴한 의료 서비스를 이용할 수 있다) · reasonable, moderate와 유사"},
+{e:"distinct",p:"형",k:"뚜렷한, 분명한 / 독특한, 전혀 다른",s:"clear",n:"distinction(명: 차이, 특별함) · have a distinct sense of humor(독특한 유머 감각을 가지고 있다) · 교재에 동의어 표기 없음(clear는 참고용)"},
+{e:"entry",p:"명",k:"입장, 진입 / 입력 / 응모작, 출품작",s:"admission",n:"enter(동: 입장하다, 들어가다; 입력하다) · illegal entry into the United States(미국으로의 불법 입국) · entries for the writing competition(글쓰기 대회의 응모작) · 입장 = access, admission / 입력 = record, registration"},
+{e:"fix",p:"동",k:"고치다, 해결하다 / 고정시키다",s:"repair",n:"fixed(형: 고정된) · fix the leak in the ceiling(천장의 누수를 고치다) · 고치다 = repair, mend / 고정 = attach, tie, secure · 지텔프: fix = repair"},
+{e:"admire",p:"동",k:"존경하다, 우러러보다",s:"respect",n:"admirable(형: 감탄할 만한, 존경스러운) · admire those who never give up(포기하지 않는 사람들을 존경하다) · honor, appreciate와 유사"},
+{e:"comprise",p:"동",k:"구성되다, 이뤄지다 / 차지하다, 구성하다",s:"constitute",n:"be comprised of ~(~로 구성되다) · Women comprise a majority of childcare workers · include, consist of / form, constitute와 유사"},
+{e:"impressive",p:"형",k:"인상적인",s:"dazzling",n:"impression(명: 인상, 느낌) · impress(동: 깊은 인상을 주다, 감동을 주다) · show impressive growth(인상적인 성장을 보이다) · prodigious와 유사"},
+{e:"project",p:"동/명",k:"예상하다, 예측하다, 전망하다 / 프로젝트, 사업",s:"forecast",n:"project economic growth of 2%(2%의 경제 성장을 전망하다) · 동사 = expect, estimate, forecast, predict · 발음: 동사 [prədʒékt] / 명사 [prádʒekt]"},
+{e:"adjust",p:"동",k:"조절하다, 조정하다 / 적응하다",s:"alter",n:"adjustment(명: 조절, 적응) · adjust the light in the living room(거실의 조명을 조절하다) · adjust to the new schedule(새로운 일정에 적응하다) · change, adapt, modify와 유사"},
+{e:"organism",p:"명",k:"유기체, 생물, 미생물",s:"living thing",n:"All living organisms need water to survive(모든 살아있는 유기체는 생존하기 위해 물이 필요하다) · 교재에 동의어 표기 없음(living thing은 참고용)"},
+{e:"advantage",p:"명",k:"이점, 장점, 유리한 점",s:"benefit",n:"disadvantage(명: 불리한 점) · an advantage over renting(임대보다 유리한 점) · edge와 유사"},
+{e:"assist",p:"동",k:"돕다, 보조하다",s:"help",n:"assistance(명: 도움, 지원) · assist with the cleaning up(청소를 돕다) · support, aid와 유사"},
+{e:"command",p:"동/명",k:"지휘하다, 명령하다 / 지휘, 명령 / (언어에 대한) 지시, 능력",s:"order",n:"The captain commanded the troops to halt · train a dog to respond to human commands(개가 사람의 명령에 반응하도록 훈련시키다) · compel, direct와 유사 · 지텔프: commanded = ordered"},
+{e:"exhausted",p:"형",k:"지친, 기진맥진한",s:"tired",n:"exhausted after working all day(하루 종일 일한 후 기진맥진한) · fatigued와 유사"},
+{e:"disrupt",p:"동",k:"방해하다, 지장을 주다",s:"interrupt",n:"disruptive(형: 방해하는) · disruption(명: 방해, 지장) · The flooding disrupted travel on many roads · disturb, hamper, unsettle과 유사"},
+{e:"verify",p:"동",k:"확인하다, 증명하다",s:"confirm",n:"verification(명: 확인, 증명) · verify her identity(그녀의 신원을 확인하다) · check, prove와 유사 · 지텔프: verified = confirmed"},
+{e:"appreciate",p:"동",k:"고마워하다 / 진가를 알다, 감상할 줄 알다 / (가치가) 오르다",s:"value",n:"appreciation(명: 감사, 이해, 감상) · appreciative(형: 고마워하는, 감상하는) · appreciate working in a creative environment · 고마워하다 = be grateful for / 진가를 알다 = value, respect, admire / 오르다 = increase, rise"},
+{e:"competitive",p:"형",k:"경쟁력 있는 / 경쟁의, 경쟁을 하는",s:"rival",n:"competitor(명: 경쟁자) · a highly competitive salary(경쟁력 있는 급여) · a highly competitive world(경쟁이 치열한 세계) · 교재에 동의어 표기 없음(rival은 참고용)"},
+{e:"consent",p:"동/명",k:"동의하다 / 동의, 합의",s:"agree",n:"require proof of parental consent(부모 동의의 증명을 필요로 하다) · 동사 = agree, concur / 명사 = agreement, approval, assent"}
+];
+
+const CONF=[
+{q:"The ______ of this report is very high; every figure was checked.",o:["accuracy", "accurate"],a:"accuracy",e:"accuracy = 정확성(명사), accurate = 정확한(형용사)."},
+{q:"Please read under ______ lighting to protect your eyes.",o:["adequate", "inadequate"],a:"adequate",e:"adequate = 적절한, 충분한 ↔ inadequate = 부적절한, 불충분한."},
+{q:"The gallery will ______ photos from the war this spring.",o:["exhibit", "exhibition"],a:"exhibit",e:"exhibit = 전시하다(동사) / 전시회·전시품(명사). exhibition = 전시회(명사)."},
+{q:"We plan to ______ the recipe to use less sugar.",o:["adapt", "adopt"],a:"adapt",e:"adapt = 개조하다, 적응하다 / adopt = 채택하다, 입양하다(철자 혼동 주의, 교재 외 참고)."},
+{q:"The new rule is hard to ______ in small companies.",o:["implement", "implementation"],a:"implement",e:"implement = 시행하다(동사), implementation = 시행, 실행(명사)."},
+{q:"Many people ______ a lot of participants at the event.",o:["anticipate", "anticipation"],a:"anticipate",e:"anticipate = 예상하다(동사), anticipation = 기대, 예감(명사)."},
+{q:"Owning a home has an ______ over renting.",o:["advantage", "disadvantage"],a:"advantage",e:"advantage = 이점, 장점 ↔ disadvantage = 불리한 점."},
+{q:"The family cannot ______ a new house this year.",o:["afford", "affordable"],a:"afford",e:"afford = ~을 감당할 여유가 있다(동사), affordable = 저렴한(형용사)."},
+{q:"She is a strong ______ in the race.",o:["competitor", "competitive"],a:"competitor",e:"competitor = 경쟁자(명사), competitive = 경쟁력 있는(형용사)."},
+{q:"She can ______ a good book.",o:["appreciate", "appreciation"],a:"appreciate",e:"appreciate = 고마워하다, 진가를 알다(동사), appreciation = 감사, 감상(명사)."},
+{q:"Scientists studied the ______ reaction in the lab.",o:["chemical", "chemist"],a:"chemical",e:"chemical = 화학물질·화학의, chemist = 화학자, chemistry = 화학."},
+{q:"Erica ______ the tenants that the rent is due tomorrow.",o:["informed", "informal"],a:"informed",e:"inform = 알리다(동사) / informal = 비공식적인(철자 혼동 주의, 교재 외 참고)."},
+{q:"The ______ lot was sold at a low price.",o:["vacant", "vacancy"],a:"vacant",e:"vacant = 비어 있는(형용사), vacancy = 빈자리, 공석(명사)."},
+{q:"Please ______ for the mistake right away.",o:["apologize", "apology"],a:"apologize",e:"apologize = 사과하다(동사), apology = 사과(명사)."},
+{q:"He did not ______ the cause of the fire.",o:["locate", "location"],a:"locate",e:"locate = 위치를 찾아내다(동사), location = 장소, 지점(명사)."}
+];
+
+const DAILY=[
+{q:"accurate 와 뜻이 가장 가까운 것은?",o:["thorough", "fatigued", "show", "precise"],a:"precise",e:"accurate = precise (정확한)"},
+{q:"exhausted 와 뜻이 가장 가까운 것은?",o:["fatigued", "thorough", "hamper", "precise"],a:"fatigued",e:"exhausted = fatigued (지친)"},
+{q:"exhibit 와 뜻이 가장 가까운 것은?",o:["thorough", "show", "fatigued", "precise"],a:"show",e:"exhibit = show (보이다, 나타내다)"},
+{q:"disrupt 와 뜻이 가장 가까운 것은?",o:["hamper", "show", "thorough", "precise"],a:"hamper",e:"disrupt = hamper (방해하다)"},
+{q:"comprehensive 와 뜻이 가장 가까운 것은?",o:["fatigued", "show", "thorough", "hamper"],a:"thorough",e:"comprehensive = thorough (포괄적인)"},
+{q:"<u>implement</u> a new business plan 에서 implement 와 뜻이 가장 가까운 것은?",o:["devise", "undergo", "execute", "cease"],a:"execute",e:"implement = execute (시행하다)"},
+{q:"<u>adjust</u> the temperature of the room 에서 adjust 와 뜻이 가장 가까운 것은?",o:["change", "recover", "accuse", "locate"],a:"change",e:"adjust = change (조절하다)"},
+{q:"<u>assist</u> with the development of the new product 에서 assist 와 뜻이 가장 가까운 것은?",o:["promote", "hinder", "inform", "help"],a:"help",e:"assist = help (돕다)"},
+{q:"<u>confident</u> in the future of the company 에서 confident 와 뜻이 가장 가까운 것은?",o:["selective", "convinced", "talented", "complicated"],a:"convinced",e:"confident = convinced (확신하는)"},
+{q:"<u>anticipate</u> a lot of difficulties with the new job 에서 anticipate 와 뜻이 가장 가까운 것은?",o:["expect", "absorb", "preserve", "prepare"],a:"expect",e:"anticipate = expect (예상하다)"},
+{q:"A renowned expert will <u>conduct</u> the workshop. 에서 conduct 와 뜻이 가장 가까운 것은?",o:["join", "lead"],a:"lead",e:"conduct = 진행하다 (lead) — 지텔프 동의어 출제 유형"},
+{q:"The café is <u>frequented</u> by families with young children. 에서 frequented 와 뜻이 가장 가까운 것은?",o:["aided", "visited"],a:"visited",e:"frequent(동) = 자주 방문하다 (visit)"},
+{q:"We would like to <u>acknowledge</u> your continued support. 에서 acknowledge 와 뜻이 가장 가까운 것은?",o:["reveal", "recognize"],a:"recognize",e:"acknowledge = 감사를 표하다 (recognize)"},
+{q:"We can't leave until we <u>fix</u> the flat tire. 에서 fix 와 뜻이 가장 가까운 것은?",o:["tie", "repair"],a:"repair",e:"fix = 고치다 (repair)"},
+{q:"The captain <u>commanded</u> the troops to halt. 에서 commanded 와 뜻이 가장 가까운 것은?",o:["ordered", "managed"],a:"ordered",e:"command = 명령하다 (order)"},
+{q:"A blood test has <u>verified</u> that the patient has the flu. 에서 verified 와 뜻이 가장 가까운 것은?",o:["confirmed", "defined"],a:"confirmed",e:"verify = 확인하다 (confirm)"}
+];
+
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function distract(correct,pool){const out=[];for(const x of shuffle(pool)){if(x!==correct&&!out.includes(x)){out.push(x);if(out.length===3)break;}}return out;}
+
+const S={};
+function sc(sec,ok){S[sec]=S[sec]||{ok:0,t:0};S[sec].t++;if(ok)S[sec].ok++;document.getElementById('sc-'+sec).textContent=S[sec].ok+' / '+S[sec].t;}
+
+function renderQ(host,sec,num,text,options,correct,expl){
+  const opts=shuffle(options);
+  const d=document.createElement('div');d.className='q';
+  d.innerHTML='<div><b>'+num+'.</b> '+text+'</div><div class="opts"></div><div class="exp"></div>';
+  const box=d.querySelector('.opts'),ex=d.querySelector('.exp');
+  opts.forEach(o=>{
+    const b=document.createElement('button');b.textContent=o;
+    b.onclick=()=>{
+      if(d.dataset.done)return;d.dataset.done='1';
+      const ok=o===correct;b.classList.add(ok?'ok':'bad');
+      if(!ok){box.querySelectorAll('button').forEach(x=>{if(x.textContent===correct)x.classList.add('ok');});}
+      ex.innerHTML=(ok?'✅ 정답!':'❌ 정답: <b>'+correct+'</b>')+(expl?'<br>💡 '+expl:'');
+      ex.style.display='block';
+      sc(sec,ok);
+    };
+    box.appendChild(b);
+  });
+  host.appendChild(d);
+}
+
+const enPool=W.map(x=>x.e), koPool=W.map(x=>x.k), synPool=W.map(x=>x.s);
+
+const BAD={"adjust": ["adapt"], "adapt": ["adjust"], "anticipate": ["project"], "project": ["anticipate"], "appreciate": ["admire"], "admire": ["appreciate", "respect", "acknowledge"], "respect": ["admire"], "accurate": ["equivalent", "massive"], "equivalent": ["accurate"], "assist": ["advantage"], "advantage": ["assist"], "devastate": ["disrupt"], "disrupt": ["devastate", "interrupt"], "interrupt": ["disrupt"], "comprehensive": ["complicated"], "complicated": ["comprehensive"], "conduct": ["command"], "command": ["conduct"], "verify": ["accuse"], "accuse": ["verify"], "massive": ["accurate"], "acknowledge": ["admire"], "exhausted": ["absorb"], "absorb": ["exhausted"], "fix": ["implement"], "implement": ["fix"], "reduce": ["cease"], "cease": ["reduce"], "enclose": ["comprise"], "comprise": ["enclose"], "entry": ["exhibit"], "exhibit": ["entry"]};
+const byE={};W.forEach(w=>byE[w.e]=w);
+const bad=w=>(BAD[w.e]||[]).map(x=>byE[x]).filter(Boolean);
+W.forEach((w,i)=>{
+  const ex=bad(w).map(x=>x.k);
+  renderQ(document.getElementById('p1'),'p1',i+1,'<b>'+w.e+'</b> 의 뜻으로 알맞은 것은?',
+    [w.k,...distract(w.k,koPool.filter(x=>!ex.includes(x)))], w.k, w.n);
+});
+W.forEach((w,i)=>{
+  const ex=bad(w).map(x=>x.e);
+  renderQ(document.getElementById('p2b'),'p2',i+1,'<b>'+w.k+'</b> 에 해당하는 영어 단어는?',
+    [w.e,...distract(w.e,enPool.filter(x=>!ex.includes(x)))], w.e, w.p+' · '+w.n);
+});
+W.forEach((w,i)=>{
+  const ex=bad(w).map(x=>x.s);
+  renderQ(document.getElementById('p3b'),'p3',i+1,'<b>'+w.e+'</b> 의 동의어(유의어)로 가장 알맞은 것은?',
+    [w.s,...distract(w.s,synPool.filter(x=>!ex.includes(x)))], w.s, w.k+' · '+w.n);
+});
+CONF.forEach((c,i)=>{
+  renderQ(document.getElementById('p4b'),'p4',i+1,c.q,c.o,c.a,c.e);
+});
+DAILY.forEach((d,i)=>{
+  renderQ(document.getElementById('p5b'),'p5',i+1,d.q,d.o,d.a,d.e);
+});
+</script>
+</body>
+</html>
