@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="color-scheme" content="light">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>지텔프 단어 DAY 03 퀴즈</title>
+<style>
+body{font-family:system-ui,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;max-width:880px;margin:0 auto;padding:20px;line-height:1.6;color:#1f2937;background:#fff}
+h1{font-size:24px;margin-bottom:4px}
+.sub{color:#6b7280;font-size:14px;margin-top:0}
+h2{font-size:19px;border-bottom:2px solid #0f766e;padding-bottom:4px;margin-top:36px}
+.score{font-weight:bold;color:#0f766e;margin-left:10px;font-size:15px}
+.q{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:12px 14px;margin:10px 0}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:8px}
+button{padding:8px 10px;border:1px solid #cbd5e1;border-radius:6px;background:#fff;cursor:pointer;text-align:left;font-size:14px;font-family:inherit}
+button:hover{background:#f0fdfa}
+button.ok{background:#d1fae5;border-color:#10b981}
+button.bad{background:#fee2e2;border-color:#ef4444}
+.exp{display:none;margin-top:8px;font-size:13px;color:#374151;background:#f3f4f6;padding:6px 8px;border-radius:6px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff}
+th,td{border:1px solid #e5e7eb;padding:6px 8px;vertical-align:top;text-align:left}
+th{background:#ecfdf5}
+ul{padding-left:20px}
+li{margin:4px 0}
+.box{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:12px 16px}
+@media (max-width:600px){.opts{grid-template-columns:1fr}}
+@media print{.quiz{display:none}button{display:none}}
+
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{overflow-wrap:break-word}
+a{word-break:break-word}
+@media (max-width:600px){
+body{padding:14px 12px}
+h1{font-size:20px}h2{font-size:17px}
+button{min-height:44px;font-size:15px;padding:10px 12px}
+.q{padding:10px 12px}
+table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;font-size:12.5px}
+th,td{padding:5px 8px;word-break:keep-all;overflow-wrap:normal;white-space:normal}
+th:nth-child(2),td:nth-child(2){white-space:nowrap}
+.box{padding:10px 12px}
+}
+</style>
+</head>
+<body>
+
+<h1>지텔프 단어 DAY 03 퀴즈 · 핵심요약</h1>
+<p class="sub">출처: G-TELP VOCA DAY 03 (교재 60~71페이지 + 데일리 테스트·패러프레이징) · 단어 01~50 전부 포함 · 보기를 누르면 바로 채점됩니다.</p>
+
+<nav class="quiz">
+  <a href="#p1">Part1 영→뜻</a>
+  <a href="#p2">Part2 뜻→영</a>
+  <a href="#p3">Part3 동의어</a>
+  <a href="#p4">Part4 헷갈리는 단어</a>
+  <a href="#p5">Part5 데일리테스트·출제유형</a>
+  <a href="#sum">핵심요약</a>
+</nav>
+
+<h2 class="quiz">Part 1. 영단어 → 뜻 고르기 <span class="score" id="sc-p1">0 / 0</span></h2>
+<div id="p1" class="quiz"></div>
+
+<h2 class="quiz" id="p2">Part 2. 뜻 → 영단어 고르기 <span class="score" id="sc-p2">0 / 0</span></h2>
+<div id="p2b" class="quiz"></div>
+
+<h2 class="quiz" id="p3">Part 3. 동의어(유의어) 고르기 <span class="score" id="sc-p3">0 / 0</span></h2>
+<div id="p3b" class="quiz"></div>
+
+<h2 class="quiz" id="p4">Part 4. 헷갈리기 쉬운 단어 구별 <span class="score" id="sc-p4">0 / 0</span></h2>
+<div id="p4b" class="quiz"></div>
+
+<h2 class="quiz" id="p5">Part 5. 데일리 테스트 & 지텔프 출제 유형 <span class="score" id="sc-p5">0 / 0</span></h2>
+<div id="p5b" class="quiz"></div>
+
+<h2 id="sum">핵심요약본</h2>
+
+<div class="box">
+<h3>1. 동의어 묶음 (시험 빈출)</h3>
+<ul>
+  <li>impact · effect · influence → <b>영향</b></li>
+  <li>settle · solve · resolve → <b>해결하다</b> / settle · pay · clear → <b>(빚을) 청산하다</b></li>
+  <li>fundamental · essential · primary · basic → <b>근본적인</b> / literature · paper · thesis · dissertation → <b>논문, 문헌</b></li>
+  <li>air · show · broadcast · televise → <b>방송하다</b> / favor · prefer → <b>선호하다</b> / favor · kindness · politeness → <b>호의</b></li>
+  <li>largely · mostly · mainly → <b>대부분</b> / main · major · leading · chief → <b>주된</b></li>
+  <li>direction · course · path → <b>방향</b> / direction · control · supervision · oversight → <b>지휘, 감독</b></li>
+  <li>manufacturer · producer · maker → <b>제조회사</b> / factor · element · component → <b>요인</b></li>
+  <li>decline · fall · drop · decrease · diminish · worsen → <b>하락하다</b> / decline · refuse · reject → <b>거절하다</b></li>
+  <li>location · place · point → <b>위치</b> / wage · pay · payment · income · salary → <b>임금</b></li>
+  <li>limit · confine · curb · restrict · restrain · control → <b>제한하다</b></li>
+  <li>potential · possible · likely · hidden → <b>잠재적인</b> / damage · harm · destruction → <b>손상</b></li>
+  <li>obvious · clear · apparent · evident → <b>명백한</b> / legislation · law · regulation → <b>법률</b></li>
+  <li>length · duration · period → <b>기간</b> / practical · actual · realistic → <b>현실적인</b></li>
+  <li>relatively · comparatively · somewhat → <b>비교적</b> / an array of · a range of → <b>다양한</b></li>
+  <li>regarding · about · concerning · as to → <b>~에 관한</b></li>
+  <li>release · free · liberate · discharge → <b>풀어주다</b> / release · publish · issue → <b>공개하다</b> / release · launch · unveil → <b>발매하다</b></li>
+  <li>sequence · order → <b>순서</b> / sequence · series · succession → <b>연속</b></li>
+  <li>assign · give · allocate · delegate → <b>맡기다</b> / assign · appoint · elect → <b>임명하다</b></li>
+  <li>able · capable → <b>~할 수 있는</b> / technical · specialized → <b>전문적인</b></li>
+  <li>origin · beginning · inception · source · progenitor → <b>기원</b> / pollution · contamination → <b>오염</b></li>
+  <li>permanent · lasting · persistent → <b>영구적인</b> / edge · advantage · lead → <b>우위</b> / edge · limit · border → <b>가장자리</b></li>
+  <li>rural · rustic · country → <b>시골의</b> / occasional · casual · intermittent → <b>가끔씩의</b></li>
+  <li>vary · differ → <b>다르다</b> / vary · change · alter · modify → <b>다르게 하다</b></li>
+  <li>departure · shift · deviation → <b>일탈</b> / authorize · allow · permit · approve · sanction · endorse → <b>허가하다</b></li>
+  <li>phase · stage · state · step → <b>단계</b></li>
+</ul>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>2. 헷갈리기 쉬운 단어 (구별 포인트)</h3>
+<ul>
+  <li><b>impact vs effect</b> — 둘 다 '영향'. effect는 효과, 영향(명사)이고 effective(효과적인)로 파생. (affect는 동사 '영향을 미치다', 참고 교재 외)</li>
+  <li><b>main vs leading</b> — 둘 다 '주된'. main은 주된, leading은 앞장서는, 선도적인.</li>
+  <li><b>limit vs edge</b> — 둘 다 '가장자리, 한계'의 뜻이 있지만, edge는 지텔프에서 '우위(advantage)'로 자주 출제.</li>
+  <li><b>able vs unable</b> — ~할 수 있는 / ~할 수 없는. ability는 능력(명사).</li>
+  <li><b>accept vs except</b> — 수락하다 / ~을 제외하고(참고, 교재 외).</li>
+  <li><b>large vs largely</b> — 큰(형) / 대부분(부).</li>
+  <li><b>direct vs direction</b> — direct는 직접적인(형)·지휘하다(동), direction은 방향·지휘(명).</li>
+  <li><b>long vs length</b> — 긴(형) / 길이·기간(명).</li>
+  <li><b>practical vs practicality</b> — 현실적인(형) / 실용성(명).</li>
+  <li><b>necessary vs necessarily</b> — 필요한(형) / 반드시(부). not necessarily = 반드시 ~인 것은 아닌.</li>
+  <li><b>origin vs original</b> — 기원(명) / 원래의, 독창적인(형).</li>
+  <li><b>threat vs threaten</b> — 위협(명) / 위협하다(동).</li>
+  <li><b>diet vs dietary</b> — 식단(명) / 식이의(형).</li>
+  <li><b>depart vs departure</b> — 출발하다(동) / 출발, 일탈(명).</li>
+  <li><b>various vs vary vs variety</b> — 다양한(형) / 다양하다(동) / 다양성(명).</li>
+</ul>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>3. 다의어 (뜻이 여러 개인 단어)</h3>
+<ul>
+  <li><b>settle</b> — 해결하다 / (빚을) 청산하다 / 정착하다</li>
+  <li><b>air</b> — 방송하다(동) / 공기(명) / 항공(명)</li>
+  <li><b>favor</b> — 호의·친절(명) / 선호하다(동)</li>
+  <li><b>direction</b> — 방향 / 지휘·감독</li>
+  <li><b>decline</b> — 하락·감소(명) / 하락하다(동) / 거절하다(동)</li>
+  <li><b>limit</b> — 제한·한도(명) / 제한하다(동)</li>
+  <li><b>potential</b> — 잠재적인(형) / 잠재력(명)</li>
+  <li><b>release</b> — 풀어주다 / 공개하다·발표하다 / 발매하다</li>
+  <li><b>sequence</b> — 순서 / 연속 · <b>measure</b> — 조치 / 기준 / 측정하다</li>
+  <li><b>assign</b> — 맡기다·할당하다 / 임명하다 · <b>permanent</b> — 영구적인 / 상근직의</li>
+  <li><b>edge</b> — 가장자리 / 우위 · <b>vary</b> — 다양하다 / 다르게 하다</li>
+  <li><b>departure</b> — 출발 / 일탈 · <b>sort</b> — 종류(명) / 분류하다(동)</li>
+</ul>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>4. 품사 & 파생어 체크</h3>
+<ul>
+  <li>settle → settlement(명) / favor → favorite(명·형) / effect → effective(형)</li>
+  <li>large → largely(부) / direction → direct(형·동) / manufacturer → manufacture(동)</li>
+  <li>leading → lead(동) / limit → limited(형), limitation(명) / potential → potentially(부)</li>
+  <li>damage → damaged(형) / obvious → obviously(부) / length → long(형)</li>
+  <li>practical → practicality(명) / relatively → relative(형) / not necessarily → necessary(형), necessarily(부)</li>
+  <li>scientific → science(명) / assign → assignment(명) / able → unable(형)</li>
+  <li>origin → original(형) / pollution → pollute(동) / accept → acceptance(명)</li>
+  <li>occasional → occasionally(부) / vary → various(형) / threat → threaten(동)</li>
+  <li>diet → dietary(형) / departure → depart(동) / authorize → authorization(명)</li>
+</ul>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>5. 패러프레이징 빈출 표현 (교재 71p)</h3>
+<table>
+<tr><th>원래 표현</th><th>바꾼 표현</th><th>원래 표현</th><th>바꾼 표현</th></tr>
+<tr><td>a store (상점)</td><td>an establishment (기관, 시설)</td><td>would rather (차라리 ~하겠다)</td><td>prefer (선호하다)</td></tr>
+<tr><td>a family nurse (가정 간호사)</td><td>a caretaker (돌보는 사람)</td><td>a worm (벌레)</td><td>a creature (생물)</td></tr>
+<tr><td>shopping centers (쇼핑센터)</td><td>convenience (편의)</td><td>a promotion (판촉, 홍보)</td><td>an offer (제안)</td></tr>
+<tr><td>acquire (획득하다)</td><td>buy (사다)</td><td>shape (모양)</td><td>form (형태)</td></tr>
+<tr><td>a reasonable success (상당한 성공)</td><td>a moderate success (적당한 성공)</td><td>agreement (동의, 합의)</td><td>contract (계약)</td></tr>
+<tr><td>refuse (거부하다)</td><td>reject (거절하다)</td><td>a substance (물질)</td><td>a component (구성 요소)</td></tr>
+<tr><td>aim (목표하다)</td><td>seek (추구하다)</td><td>rapidly (빠르게)</td><td>quickly (빨리)</td></tr>
+<tr><td>aggressive actions (공격적인 행동)</td><td>vicious behavior (포악한 행동)</td><td></td><td></td></tr>
+</table>
+</div>
+
+
+<h2>학습 팁</h2>
+<div class="box">
+<ul>
+  <li>동사 동의어(settle·solve·resolve, limit·restrict·confine, assign·appoint)는 <b>묶음</b>으로 함께 외우기.</li>
+  <li>한 단어에 여러 뜻이 있는 단어(settle, decline, release, edge, assign, limit)는 <b>문장 속 뜻</b>을 같이 적어 두기.</li>
+  <li>지텔프 동의어 출제 유형은 문맥으로 판단 — settle a dispute = solve, favors tea = prefers, declined = worsened.</li>
+  <li>파생어 쌍(effect/effective, length/long, origin/original)은 <b>품사 구별</b>이 핵심.</li>
+  <li>틀린 문제는 다음 날 Part 4와 Part 1부터 다시 풀어보기.</li>
+</ul>
+</div>
+
+<script>
+const W=[
+{e:"impact",p:"명/동",k:"영향 / 영향을 미치다",s:"influence",n:"impact on the economy(경제에 미치는 영향) · effect, influence와 유사"},
+{e:"settle",p:"동",k:"해결하다 / (빚을) 청산하다 / 정착하다",s:"solve",n:"settlement(명: 해결, 합의; 정착) · settle a dispute(분쟁을 해결하다) · 해결하다 = solve, resolve / 청산하다 = pay, clear · 지텔프: settle = solve"},
+{e:"literature",p:"명",k:"문학 / 문헌, 논문, 자료",s:"paper",n:"literature review(문헌 검토) · 문헌·논문 = paper, thesis, dissertation"},
+{e:"fundamental",p:"형/명",k:"근본적인 / 근본, 핵심",s:"essential",n:"fundamental change(근본적인 변화) · basic, primary와 유사"},
+{e:"air",p:"동/명",k:"방송하다 / 공기 / 항공",s:"broadcast",n:"air a program on TV(프로그램을 방송하다) · 방송하다 = show, broadcast, televise"},
+{e:"impose",p:"동",k:"(의무·세금 등을) 부과하다",s:"levy",n:"impose a tax on imports(수입품에 세금을 부과하다) · 교재에 동의어 표기 없음(levy는 참고용)"},
+{e:"favor",p:"명/동",k:"호의, 친절 / 선호하다",s:"prefer",n:"favorite(명/형: 가장 좋아하는 (것)) · do me a favor(부탁을 들어주다) · 호의 = kindness, politeness / 선호하다 = prefer · 지텔프: favors = prefers"},
+{e:"effect",p:"명",k:"영향, 효과",s:"impact",n:"effective(형: 효과적인) · side effect(부작용) · influence와 유사"},
+{e:"largely",p:"부",k:"대부분, 주로",s:"mostly",n:"large(형: 큰) · largely responsible(주로 책임이 있는) · mainly와 유사"},
+{e:"direction",p:"명",k:"방향 / 지휘, 감독",s:"course",n:"direct(형: 직접적인 / 동: 지휘하다) · under the direction of ~(~의 지휘 아래) · 방향 = course, path / 지휘 = control, supervision, oversight"},
+{e:"manufacturer",p:"명",k:"제조회사, 제조업자",s:"producer",n:"manufacture(동: 제조하다) · a car manufacturer(자동차 제조회사) · maker와 유사"},
+{e:"main",p:"형",k:"주된, 주요한",s:"major",n:"the main reason(주된 이유) · leading, chief와 유사"},
+{e:"leading",p:"형",k:"주도적인, 선도하는",s:"key",n:"lead(동: 이끌다) · a leading company(선도 기업) · major, top, main과 유사"},
+{e:"decline",p:"명/동",k:"하락, 감소, 쇠퇴 / 하락하다 / 거절하다",s:"fall",n:"a decline in sales(매출 감소) · 하락하다 = fall, drop, decrease, diminish, worsen / 거절하다 = refuse, reject · 지텔프: declined = worsened"},
+{e:"factor",p:"명",k:"요인, 요소",s:"element",n:"a key factor(핵심 요인) · component와 유사"},
+{e:"location",p:"명",k:"위치, 장소",s:"place",n:"locate(동: 위치를 찾아내다) · point와 유사"},
+{e:"negative",p:"형",k:"부정적인",s:"pessimistic",n:"a negative effect(부정적인 영향) · 반의어 positive(긍정적인) · 교재에 동의어 표기 없음(pessimistic은 참고용)"},
+{e:"wage",p:"명",k:"임금, 급료",s:"pay",n:"a minimum wage(최저 임금) · payment, income, salary와 유사"},
+{e:"limit",p:"명/동",k:"제한, 한도 / 제한하다",s:"restrict",n:"limited(형: 제한된) · limitation(명: 제한, 한계) · 제한하다 = confine, curb, restrict, restrain, control · 지텔프: limited = confined"},
+{e:"potential",p:"형/명",k:"잠재적인 / 잠재력",s:"possible",n:"potentially(부: 잠재적으로) · potential problems(잠재적인 문제) · 형용사 = possible, likely, hidden / 명사 = possibilities, ability, promise"},
+{e:"damage",p:"명/동",k:"손상, 피해 / 손상을 입히다",s:"harm",n:"damaged(형: 손상된) · cause serious damage(심각한 피해를 입히다) · 명사 = harm, destruction / 동사 = injure, mar"},
+{e:"obvious",p:"형",k:"명백한, 분명한",s:"clear",n:"obviously(부: 분명히) · an obvious mistake(명백한 실수) · apparent, evident와 유사"},
+{e:"legislation",p:"명",k:"법률, 법률 제정",s:"law",n:"legislate(동: 법률을 제정하다) · new legislation(새 법률) · regulation과 유사"},
+{e:"length",p:"명",k:"길이 / 기간",s:"duration",n:"long(형: 긴) · the length of the movie(영화의 길이) · period와 유사"},
+{e:"practical",p:"형",k:"현실적인, 실질적인 / 실용적인",s:"realistic",n:"practicality(명: 실용성) · a practical solution(현실적인 해결책) · actual과 유사"},
+{e:"relatively",p:"부",k:"비교적",s:"comparatively",n:"relative(형: 상대적인) · relatively cheap(비교적 저렴한) · somewhat과 유사"},
+{e:"sort",p:"명/동",k:"종류 / 분류하다",s:"type",n:"sort out(분류하다, 정리하다) · what sort of music(어떤 종류의 음악) · 교재에 동의어 표기 없음(type은 참고용)"},
+{e:"an array of",p:"구",k:"다양한",s:"a range of",n:"an array of products(다양한 제품) · various, a variety of와 유사"},
+{e:"regarding",p:"전",k:"~에 관한",s:"concerning",n:"regard(동: ~으로 여기다) · questions regarding the price(가격에 관한 질문) · about, as to와 유사"},
+{e:"release",p:"동/명",k:"풀어주다, 석방하다 / 공개하다, 발표하다 / 발매하다 / 석방, 발매",s:"liberate",n:"release a prisoner(죄수를 풀어주다) · 풀어주다 = free, liberate, discharge / 공개하다 = publish, issue / 발매하다 = launch, unveil · 명사 liberation(석방)"},
+{e:"sequence",p:"명",k:"차례, 순서 / 연속",s:"order",n:"in sequence(순서대로) · 순서 = order / 연속 = series, succession"},
+{e:"measure",p:"명/동",k:"조치 / 기준, 척도 / 재다, 측정하다",s:"step",n:"take measures(조치를 취하다) · 교재에 동의어 표기 없음(step은 참고용)"},
+{e:"scientific",p:"형",k:"과학의, 과학적인",s:"academic",n:"science(명: 과학) · scientist(명: 과학자) · 교재에 동의어 표기 없음(academic은 참고용)"},
+{e:"assign",p:"동",k:"(업무를) 맡기다, 할당하다 / 선임하다, 임명하다",s:"appoint",n:"assignment(명: 과제, 임무) · assign more responsibilities(더 많은 책임을 맡기다) · 맡기다 = give, allocate, delegate / 임명하다 = appoint, elect · 지텔프: assigned = appointed"},
+{e:"able",p:"형",k:"~할 수 있는",s:"capable",n:"unable(형: ~할 수 없는) · ability(명: 능력) · be able to ~(~할 수 있다)"},
+{e:"technical",p:"형",k:"기술의, 기술적인 / 전문적인",s:"specialized",n:"technique(명: 기술, 기법) · technical support(기술 지원) · 전문적인 = specialized"},
+{e:"origin",p:"명",k:"기원, 근원",s:"source",n:"original(형: 원래의, 독창적인) · the origin of the word(그 단어의 기원) · beginning, inception과 유사"},
+{e:"pollution",p:"명",k:"오염, 공해",s:"contamination",n:"pollute(동: 오염시키다) · air pollution(대기 오염)"},
+{e:"permanent",p:"형",k:"영원한, 영구적인 / 상근직의",s:"lasting",n:"permanently(부: 영구적으로) · a permanent job(상근직) · persistent와 유사"},
+{e:"accept",p:"동",k:"수락하다, 받아들이다",s:"receive",n:"acceptance(명: 수락) · acceptable(형: 받아들일 만한) · accept an offer(제안을 수락하다) · 교재 여백의 손글씨가 불확실해 receive는 참고용"},
+{e:"edge",p:"명",k:"가장자리, 끝 / 우위, 유리함",s:"advantage",n:"the edge of the table(탁자 가장자리) · 가장자리 = limit, border / 우위 = advantage, lead · 지텔프: edge = advantage"},
+{e:"rural",p:"형",k:"시골의, 지방의",s:"rustic",n:"a rural area(시골 지역) · country와 유사 · 반의어 urban(도시의)"},
+{e:"occasional",p:"형",k:"가끔씩의, 때때로의",s:"intermittent",n:"occasionally(부: 가끔) · an occasional visit(가끔씩의 방문) · casual과 유사"},
+{e:"vary",p:"동",k:"다양하다, (각기) 다르다 / 다르게 하다",s:"differ",n:"various(형: 다양한) · variety(명: 다양성) · prices vary(가격이 제각각이다) · 다르게 하다 = change, alter, modify"},
+{e:"threat",p:"명",k:"협박, 위협",s:"menace",n:"threaten(동: 위협하다) · a threat to wildlife(야생 동물에 대한 위협) · 교재에 동의어 표기 없음(menace는 참고용)"},
+{e:"diet",p:"명",k:"식단, 식사",s:"food",n:"dietary(형: 식이의) · a healthy diet(건강한 식단) · 교재: diet = food"},
+{e:"not necessarily",p:"구",k:"반드시 ~인 것은 아닌",s:"not always",n:"necessary(형: 필요한) · necessarily(부: 반드시) · 교재에 동의어 표기 없음(not always는 참고용)"},
+{e:"departure",p:"명",k:"출발 / 벗어남, 일탈",s:"deviation",n:"depart(동: 출발하다) · a departure from the norm(규범에서의 일탈) · 벗어남 = shift, deviation"},
+{e:"authorize",p:"동",k:"허가하다, 인가하다",s:"approve",n:"authorization(명: 허가) · authorize the payment(지불을 허가하다) · allow, permit, sanction, endorse와 유사"},
+{e:"phase",p:"명",k:"단계, 시기",s:"stage",n:"the first phase(첫 단계) · 지텔프: phases = stages · state, step과 유사"}
+];
+
+const CONF=[
+{q:"The new medicine had a positive ______ on his health.",o:["effect", "effective"],a:"effect",e:"effect = 영향, 효과(명사), effective = 효과적인(형용사)."},
+{q:"The two companies finally reached a ______ after a long dispute.",o:["settlement", "settle"],a:"settlement",e:"settlement = 합의, 해결(명사), settle = 해결하다(동사)."},
+{q:"The ______ of the movie is about two hours.",o:["length", "long"],a:"length",e:"length = 길이(명사), long = 긴(형용사)."},
+{q:"The doctor said the symptoms are ______ related to stress.",o:["largely", "large"],a:"largely",e:"largely = 대부분, 주로(부사), large = 큰(형용사)."},
+{q:"A car ______ announced a new electric model.",o:["manufacturer", "manufacture"],a:"manufacturer",e:"manufacturer = 제조회사(명사), manufacture = 제조하다(동사)."},
+{q:"She was ______ to attend the meeting because of the flu.",o:["unable", "able"],a:"unable",e:"unable = ~할 수 없는, able = ~할 수 있는."},
+{q:"Air ______ is a serious problem in big cities.",o:["pollution", "pollute"],a:"pollution",e:"pollution = 오염(명사), pollute = 오염시키다(동사)."},
+{q:"He has an ______ visit to his hometown every spring.",o:["occasional", "occasionally"],a:"occasional",e:"occasional = 가끔씩의(형용사), occasionally = 가끔(부사)."},
+{q:"Wealth does not ______ bring happiness.",o:["necessarily", "necessary"],a:"necessarily",e:"necessarily = 반드시(부사), necessary = 필요한(형용사)."},
+{q:"The government will ______ the new law next week.",o:["authorize", "authorization"],a:"authorize",e:"authorize = 허가하다(동사), authorization = 허가(명사)."},
+{q:"Experts warned of the ______ of a flood.",o:["threat", "threaten"],a:"threat",e:"threat = 위협(명사), threaten = 위협하다(동사)."},
+{q:"The manager gave each worker a new ______.",o:["assignment", "assign"],a:"assignment",e:"assignment = 과제, 임무(명사), assign = 맡기다(동사)."},
+{q:"Please ______ my offer before the deadline.",o:["accept", "except"],a:"accept",e:"accept = 수락하다 / except = ~을 제외하고(철자 혼동 주의, 교재 외 참고)."},
+{q:"The train's ______ was delayed by an hour.",o:["departure", "depart"],a:"departure",e:"departure = 출발(명사), depart = 출발하다(동사)."},
+{q:"Prices ______ from store to store.",o:["vary", "various"],a:"vary",e:"vary = 다양하다, 다르다(동사), various = 다양한(형용사)."}
+];
+
+const DAILY=[
+{q:"assign 과 뜻이 가장 가까운 것은?",o:["appoint", "fall", "prefer", "solve"],a:"appoint",e:"assign = appoint (임명하다)"},
+{q:"impact 와 뜻이 가장 가까운 것은?",o:["influence", "appoint", "prefer", "fall"],a:"influence",e:"impact = influence (영향)"},
+{q:"favor 와 뜻이 가장 가까운 것은?",o:["fall", "solve", "prefer", "appoint"],a:"prefer",e:"favor = prefer (선호하다)"},
+{q:"decline 와 뜻이 가장 가까운 것은?",o:["solve", "fall", "influence", "prefer"],a:"fall",e:"decline = fall (하락하다)"},
+{q:"settle 와 뜻이 가장 가까운 것은?",o:["influence", "appoint", "solve", "fall"],a:"solve",e:"settle = solve (해결하다)"},
+{q:"The <u>manufacturer</u> recalled the product. 에서 manufacturer 와 뜻이 가장 가까운 것은?",o:["designer", "holder", "distributor", "producer"],a:"producer",e:"manufacturer = producer (제조회사)"},
+{q:"They decided to <u>limit</u> the exposure to the sun. 에서 limit 와 뜻이 가장 가까운 것은?",o:["restrict", "counter", "contain", "fix"],a:"restrict",e:"limit = restrict (제한하다)"},
+{q:"The boss will <u>assign</u> more responsibilities to him. 에서 assign 과 뜻이 가장 가까운 것은?",o:["choose", "settle", "give", "elect"],a:"give",e:"assign = give (맡기다)"},
+{q:"We must prepare for <u>potential</u> problems. 에서 potential 과 뜻이 가장 가까운 것은?",o:["obvious", "possible", "leading", "later"],a:"possible",e:"potential = possible (잠재적인)"},
+{q:"The <u>release</u> of political prisoners was welcomed. 에서 release 와 뜻이 가장 가까운 것은?",o:["liberation", "delivery", "sequence", "length"],a:"liberation",e:"release = liberation (석방)"},
+{q:"The couple <u>settled</u> their debt last month. 에서 settled 와 뜻이 가장 가까운 것은?",o:["completed", "solved"],a:"solved",e:"지텔프 유형: settle = solve (해결하다)"},
+{q:"She <u>favors</u> tea over coffee. 에서 favors 와 뜻이 가장 가까운 것은?",o:["prefers", "helps"],a:"prefers",e:"지텔프 유형: favor = prefer (선호하다)"},
+{q:"The champion had an <u>edge</u> over the other players. 에서 edge 와 뜻이 가장 가까운 것은?",o:["advantage", "border"],a:"advantage",e:"지텔프 유형: edge = advantage (우위)"},
+{q:"Mr. Kim was <u>assigned</u> as the new director. 에서 assigned 와 뜻이 가장 가까운 것은?",o:["appointed", "given"],a:"appointed",e:"지텔프 유형: assign = appoint (임명하다)"},
+{q:"Her health <u>declined</u> in the winter. 에서 declined 와 뜻이 가장 가까운 것은?",o:["rejected", "worsened"],a:"worsened",e:"지텔프 유형: decline = worsen (악화되다)"},
+{q:"Visitors are <u>limited</u> to the lobby. 에서 limited 와 뜻이 가장 가까운 것은?",o:["selected", "confined"],a:"confined",e:"지텔프 유형: limit = confine (제한하다)"},
+{q:"The project has three <u>phases</u>. 에서 phases 와 뜻이 가장 가까운 것은?",o:["stages", "features"],a:"stages",e:"지텔프 유형: phase = stage (단계)"}
+];
+
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function distract(correct,pool){const out=[];for(const x of shuffle(pool)){if(x!==correct&&!out.includes(x)){out.push(x);if(out.length===3)break;}}return out;}
+
+const S={};
+function sc(sec,ok){S[sec]=S[sec]||{ok:0,t:0};S[sec].t++;if(ok)S[sec].ok++;document.getElementById('sc-'+sec).textContent=S[sec].ok+' / '+S[sec].t;}
+
+function renderQ(host,sec,num,text,options,correct,expl){
+  const opts=shuffle(options);
+  const d=document.createElement('div');d.className='q';
+  d.innerHTML='<div><b>'+num+'.</b> '+text+'</div><div class="opts"></div><div class="exp"></div>';
+  const box=d.querySelector('.opts'),ex=d.querySelector('.exp');
+  opts.forEach(o=>{
+    const b=document.createElement('button');b.textContent=o;
+    b.onclick=()=>{
+      if(d.dataset.done)return;d.dataset.done='1';
+      const ok=o===correct;b.classList.add(ok?'ok':'bad');
+      if(!ok){box.querySelectorAll('button').forEach(x=>{if(x.textContent===correct)x.classList.add('ok');});}
+      ex.innerHTML=(ok?'✅ 정답!':'❌ 정답: <b>'+correct+'</b>')+(expl?'<br>💡 '+expl:'');
+      ex.style.display='block';
+      sc(sec,ok);
+    };
+    box.appendChild(b);
+  });
+  host.appendChild(d);
+}
+
+const enPool=W.map(x=>x.e), koPool=W.map(x=>x.k), synPool=W.map(x=>x.s);
+
+const BAD={"impact": ["effect"], "effect": ["impact"], "main": ["leading"], "leading": ["main"], "limit": ["edge"], "edge": ["limit"], "settle": ["assign"], "assign": ["settle", "authorize"], "potential": ["obvious"], "obvious": ["potential"], "fundamental": ["factor"], "factor": ["fundamental"], "pollution": ["threat", "damage"], "threat": ["pollution"], "direction": ["length"], "length": ["direction"], "legislation": ["literature"], "literature": ["legislation"], "authorize": ["assign"], "decline": ["vary"], "vary": ["decline"], "permanent": ["occasional"], "occasional": ["permanent"], "phase": ["sequence"], "sequence": ["phase"], "origin": ["departure"], "departure": ["origin"], "practical": ["technical"], "technical": ["practical"], "damage": ["pollution"]};
+const byE={};W.forEach(w=>byE[w.e]=w);
+const bad=w=>(BAD[w.e]||[]).map(x=>byE[x]).filter(Boolean);
+W.forEach((w,i)=>{
+  const ex=bad(w).map(x=>x.k);
+  renderQ(document.getElementById('p1'),'p1',i+1,'<b>'+w.e+'</b> 의 뜻으로 알맞은 것은?',
+    [w.k,...distract(w.k,koPool.filter(x=>!ex.includes(x)))], w.k, w.n);
+});
+W.forEach((w,i)=>{
+  const ex=bad(w).map(x=>x.e);
+  renderQ(document.getElementById('p2b'),'p2',i+1,'<b>'+w.k+'</b> 에 해당하는 영어 단어는?',
+    [w.e,...distract(w.e,enPool.filter(x=>!ex.includes(x)))], w.e, w.p+' · '+w.n);
+});
+W.forEach((w,i)=>{
+  const ex=bad(w).map(x=>x.s);
+  renderQ(document.getElementById('p3b'),'p3',i+1,'<b>'+w.e+'</b> 의 동의어(유의어)로 가장 알맞은 것은?',
+    [w.s,...distract(w.s,synPool.filter(x=>!ex.includes(x)))], w.s, w.k+' · '+w.n);
+});
+CONF.forEach((c,i)=>{
+  renderQ(document.getElementById('p4b'),'p4',i+1,c.q,c.o,c.a,c.e);
+});
+DAILY.forEach((d,i)=>{
+  renderQ(document.getElementById('p5b'),'p5',i+1,d.q,d.o,d.a,d.e);
+});
+</script>
+</body>
+</html>

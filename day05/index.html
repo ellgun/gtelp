@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="color-scheme" content="light">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>지텔프 단어 DAY 05 퀴즈</title>
+<style>
+body{font-family:system-ui,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;max-width:880px;margin:0 auto;padding:20px;line-height:1.6;color:#1f2937;background:#fff}
+h1{font-size:24px;margin-bottom:4px}
+.sub{color:#6b7280;font-size:14px;margin-top:0}
+h2{font-size:19px;border-bottom:2px solid #0f766e;padding-bottom:4px;margin-top:36px}
+.score{font-weight:bold;color:#0f766e;margin-left:10px;font-size:15px}
+.q{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:12px 14px;margin:10px 0}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:8px}
+button{padding:8px 10px;border:1px solid #cbd5e1;border-radius:6px;background:#fff;cursor:pointer;text-align:left;font-size:14px;font-family:inherit}
+button:hover{background:#f0fdfa}
+button.ok{background:#d1fae5;border-color:#10b981}
+button.bad{background:#fee2e2;border-color:#ef4444}
+.exp{display:none;margin-top:8px;font-size:13px;color:#374151;background:#f3f4f6;padding:6px 8px;border-radius:6px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff}
+th,td{border:1px solid #e5e7eb;padding:6px 8px;vertical-align:top;text-align:left}
+th{background:#ecfdf5}
+ul{padding-left:20px}
+li{margin:4px 0}
+.box{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:12px 16px}
+@media (max-width:600px){.opts{grid-template-columns:1fr}}
+@media print{.quiz{display:none}button{display:none}}
+
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{overflow-wrap:break-word}
+a{word-break:break-word}
+@media (max-width:600px){
+body{padding:14px 12px}
+h1{font-size:20px}h2{font-size:17px}
+button{min-height:44px;font-size:15px;padding:10px 12px}
+.q{padding:10px 12px}
+table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;font-size:12.5px}
+th,td{padding:5px 8px;word-break:keep-all;overflow-wrap:normal;white-space:normal}
+th:nth-child(2),td:nth-child(2){white-space:nowrap}
+.box{padding:10px 12px}
+}
+</style>
+</head>
+<body>
+
+<h1>지텔프 단어 DAY 05 퀴즈 · 핵심요약</h1>
+<p class="sub">출처: G-TELP VOCA DAY 05 (교재 84~97페이지 + 데일리 테스트·패러프레이징) · 단어 01~50 전부 포함 · 보기를 누르면 바로 채점됩니다.</p>
+
+<nav class="quiz">
+  <a href="#p1">Part1 영→뜻</a>
+  <a href="#p2">Part2 뜻→영</a>
+  <a href="#p3">Part3 동의어</a>
+  <a href="#p4">Part4 헷갈리는 단어</a>
+  <a href="#p5">Part5 데일리테스트·출제유형</a>
+  <a href="#sum">핵심요약</a>
+</nav>
+
+<h2 class="quiz">Part 1. 영단어 → 뜻 고르기 <span class="score" id="sc-p1">0 / 0</span></h2>
+<div id="p1" class="quiz"></div>
+
+<h2 class="quiz" id="p2">Part 2. 뜻 → 영단어 고르기 <span class="score" id="sc-p2">0 / 0</span></h2>
+<div id="p2b" class="quiz"></div>
+
+<h2 class="quiz" id="p3">Part 3. 동의어(유의어) 고르기 <span class="score" id="sc-p3">0 / 0</span></h2>
+<div id="p3b" class="quiz"></div>
+
+<h2 class="quiz" id="p4">Part 4. 헷갈리기 쉬운 단어 구별 <span class="score" id="sc-p4">0 / 0</span></h2>
+<div id="p4b" class="quiz"></div>
+
+<h2 class="quiz" id="p5">Part 5. 데일리 테스트 & 지텔프 출제 유형 <span class="score" id="sc-p5">0 / 0</span></h2>
+<div id="p5b" class="quiz"></div>
+
+<h2 id="sum">핵심요약본</h2>
+
+<div class="box">
+<h3>1. 동의어 묶음 (시험 빈출)</h3>
+<ul>
+  <li>experience · undergo · go through · suffer → <b>겪다</b></li>
+  <li>respond · react → <b>반응하다</b> / respond · answer · reply → <b>응답하다</b></li>
+  <li>tough · hard · harsh → <b>어려운</b> / tough · strong → <b>강인한</b> / religious · spiritual · devout → <b>종교의</b></li>
+  <li>surrounding · neighboring · adjacent → <b>주변의</b> / dependent · reliant → <b>의존하는</b></li>
+  <li>commit · do · perform → <b>저지르다</b> / commit · dedicate → <b>헌신하다</b></li>
+  <li>exceed · surpass → <b>넘다</b> / revolution · coup · rebellion · uprising → <b>혁명</b> / revolution · change · transformation → <b>변혁</b></li>
+  <li>colleague · co-worker · associate · partner → <b>동료</b> / talented · gifted → <b>재능 있는</b> / complimentary · free → <b>무료의</b></li>
+  <li>require · demand → <b>요구하다</b> / fair · exposition → <b>박람회</b></li>
+  <li>scarce · limited · insufficient · rare → <b>부족한</b> / burst · explode → <b>터지다</b> / numerous · many · plentiful → <b>수많은</b></li>
+  <li>raise · lift · elevate → <b>들어 올리다</b> / raise · increase → <b>높이다</b> / raise · mention · bring up → <b>언급하다</b></li>
+  <li>determine · identify · discover → <b>알아내다</b> / determine · decide · settle → <b>결정하다</b></li>
+  <li>artificial · man-made → <b>인공의</b> / illness · disease · sickness · disorder → <b>병</b> / wealthy · rich · affluent · prosperous → <b>부유한</b></li>
+  <li>broaden · widen · expand → <b>넓히다</b> / engaging · charming · attractive · appealing · fascinating → <b>매력적인</b></li>
+  <li>attribute(명) · trait · quality · feature → <b>자질</b> / attribute(동) · credit · ascribe → <b>돌리다</b></li>
+  <li>climate · weather → <b>기후</b> / climate · atmosphere → <b>분위기</b> / instrument · tool · device · implement → <b>기구</b></li>
+  <li>recognize · identify → <b>알아보다</b> / recognize · accept · acknowledge → <b>인정하다</b></li>
+  <li>commercial(형) · business → <b>상업의</b> / commercial · profitable → <b>이윤을 추구하는</b> / commercial(명) · advertisement → <b>광고</b></li>
+  <li>guarantee · assure · ensure · promise → <b>보장하다</b> / guarantee(명) · assurance · promise · warranty → <b>보증</b></li>
+  <li>attach · join · fasten · fix · stick · glue → <b>붙이다</b> / supervisor · manager · inspector · administrator → <b>관리자</b></li>
+  <li>guilty · sorry · ashamed · regretful → <b>죄책감이 드는</b> / guilty · culpable → <b>유죄의</b></li>
+  <li>forecast · predict · anticipate · foresee · guess → <b>예측하다</b> / arise · happen · occur · emerge → <b>발생하다</b></li>
+  <li>abandon · leave · discard · dump → <b>버리다</b> / abandon · give up · stop · drop · discontinue → <b>포기하다</b></li>
+  <li>reflect · mirror → <b>비추다</b> / reflect · reveal · show · indicate → <b>나타내다</b></li>
+  <li>alter · change · vary · modify → <b>변경하다</b> / revenue · income · proceeds → <b>수입</b></li>
+</ul>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>2. 헷갈리기 쉬운 단어 (구별 포인트)</h3>
+<ul>
+  <li><b>complimentary vs complementary</b> — 무료의·칭찬하는 / 보완하는(참고, 교재 외).</li>
+  <li><b>experience vs undergo</b> — 둘 다 '겪다'. undergo는 수술·변화 등을 겪을 때 자주 쓰임.</li>
+  <li><b>raise vs arise vs rise</b> — raise(타동사: 들어 올리다, 언급하다) / arise(자동사: 발생하다) / rise(자동사: 오르다).</li>
+  <li><b>raise 의 뜻</b> — 지텔프에서는 raise an issue = mention(언급하다)이 자주 출제.</li>
+  <li><b>recognize vs identify</b> — 알아보다는 identify, (가치를) 인정하다는 accept. 지텔프: recognized = accepted.</li>
+  <li><b>determine vs decide</b> — 알아내다 = identify(지텔프), 결정하다 = decide.</li>
+  <li><b>alter vs change</b> — 거의 같은 뜻의 동사 묶음(modify, vary).</li>
+  <li><b>attach vs attribute</b> — attach = 붙이다·첨부하다 / attribute = 자질(명)·돌리다(동).</li>
+  <li><b>require vs requirement</b> — 필요하다(동) / 요건(명).</li>
+  <li><b>scarce vs scarcely</b> — 부족한(형) / 거의 ~않다(부).</li>
+  <li><b>responsible vs responsibility</b> — 책임지고 있는(형) / 책임(명).</li>
+  <li><b>religion vs religious</b> — 종교(명) / 종교의, 독실한(형).</li>
+  <li><b>candidate vs candid</b> — 후보 / 솔직한(참고, 교재 외).</li>
+  <li><b>property vs proper</b> — 재산 / 적절한(철자 혼동 주의, 참고).</li>
+</ul>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>3. 다의어 (뜻이 여러 개인 단어)</h3>
+<ul>
+  <li><b>experience</b> — 경험(명) / 경험하다(동)</li>
+  <li><b>respond</b> — 반응하다 / 응답하다 · <b>tough</b> — 어려운 / 강인한</li>
+  <li><b>commit</b> — 저지르다 / 약속하다 / 헌신하다</li>
+  <li><b>revolution</b> — 혁명 / 변혁·혁신 / (행성의) 공전</li>
+  <li><b>complimentary</b> — 무료의 / 칭찬하는 · <b>fair</b> — 공정한 / 박람회</li>
+  <li><b>raise</b> — 들어 올리다 / 높이다 / 제기하다·언급하다 / 기르다</li>
+  <li><b>determine</b> — 알아내다 / 결정하다</li>
+  <li><b>attribute</b> — 자질(명) / 돌리다(동) · <b>climate</b> — 기후 / 분위기</li>
+  <li><b>property</b> — 재산 / 부동산 · <b>instrument</b> — 기구 / 악기</li>
+  <li><b>recognize</b> — 알아보다 / 인정하다 · <b>commercial</b> — 상업의 / 이윤을 추구하는 / 광고</li>
+  <li><b>guarantee</b> — 보장하다 / 보증하다(동) / 보장·보증(명) · <b>attach</b> — 붙이다 / 첨부하다</li>
+  <li><b>guilty</b> — 죄책감이 드는 / 유죄의 · <b>forecast</b> — 예측(명) / 예측하다(동)</li>
+  <li><b>abandon</b> — 버리다 / 포기하다 · <b>reflect</b> — 비추다 / 반영하다·나타내다</li>
+</ul>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>4. 품사 & 파생어 체크</h3>
+<ul>
+  <li>respond → response(명) / religious → religion(명) / surrounding → surround(동)</li>
+  <li>dependent → depend(동) / commit → commitment(명) / representative → represent(동)</li>
+  <li>revolution → revolutionary(형) / talented → talent(명) / complimentary → compliment(명·동)</li>
+  <li>require → requirement(명) / fair → fairly(부) / insist → insistence(명)</li>
+  <li>scarce → scarcely(부) / extinct → extinction(명) / responsible → responsibility(명)</li>
+  <li>edit → editor(명) / wealthy → wealth(명) / broaden → broad(형)</li>
+  <li>engaging → engage(동) / recognize → recognition(명) / commercial → commerce(명)</li>
+  <li>attach → attachment(명) / supervisor → supervise(동), supervision(명) / guilty → guilt(명)</li>
+  <li>reflect → reflection(명) / alter → alteration(명) / illness → ill(형)</li>
+</ul>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>5. 패러프레이징 빈출 표현 (교재 97p)</h3>
+<table>
+<tr><th>원래 표현</th><th>바꾼 표현</th><th>원래 표현</th><th>바꾼 표현</th></tr>
+<tr><td>break (부서지다)</td><td>brittle (잘 부서지는)</td><td>memorable (기억에 남는)</td><td>unforgettable (잊을 수 없는)</td></tr>
+<tr><td>closely watch (면밀히 지켜보다)</td><td>carefully monitor (주의 깊게 관찰하다)</td><td>budget (예산)</td><td>low-cost (저비용의)</td></tr>
+<tr><td>make use of (이용하다)</td><td>employ (이용하다, 고용하다)</td><td>consume (소비하다)</td><td>absorb (흡수하다)</td></tr>
+<tr><td>celebrate (기념하다)</td><td>commemorate (기념하다)</td><td>love (사랑)</td><td>fondness (애정)</td></tr>
+<tr><td>contemporary (현대의)</td><td>modern (현대의)</td><td>contain (포함하다)</td><td>feature (특징으로 하다)</td></tr>
+<tr><td>interview (인터뷰)</td><td>meeting (만남)</td><td>degrade health (건강을 해치다)</td><td>poisonous (유독한)</td></tr>
+<tr><td>control (통제하다)</td><td>manipulate (조종하다)</td><td>in stock (재고가 있는)</td><td>available (이용 가능한)</td></tr>
+<tr><td>endure (견디다)</td><td>withstand (견뎌내다)</td><td></td><td></td></tr>
+</table>
+</div>
+
+
+<h2>학습 팁</h2>
+<div class="box">
+<ul>
+  <li>동사 동의어(alter·change·modify, attach·join·fasten, abandon·dump·discard)는 <b>묶음</b>으로 함께 외우기.</li>
+  <li>한 단어에 여러 뜻이 있는 단어(raise, commit, recognize, reflect, determine)는 <b>문장 속 뜻</b>을 같이 적어 두기.</li>
+  <li>지텔프 동의어 출제 유형 — committed = dedicated, recognized = accepted, reflects = reveals, exceeded = surpassed, raised = mentioned, determine = identify, attribute = trait.</li>
+  <li>파생어 쌍(response/respond, requirement/require, scarce/scarcely)은 <b>품사 구별</b>이 핵심.</li>
+  <li>틀린 문제는 다음 날 Part 4와 Part 1부터 다시 풀어보기.</li>
+</ul>
+</div>
+
+<script>
+const W=[
+{e:"experience",p:"명/동",k:"경험 / 경험하다, 겪다",s:"undergo",n:"experienced(형: 경험이 풍부한) · an experience abroad(해외 경험) · 교재에 동의어 표기 없음(undergo는 참고용)"},
+{e:"predator",p:"명",k:"포식자",s:"hunter",n:"prey(명: 먹이, 먹잇감) · a top predator(최상위 포식자) · 교재에 동의어 표기 없음(hunter는 참고용)"},
+{e:"respond",p:"동",k:"반응하다, 대응하다 / 응답하다",s:"react",n:"response(명: 반응, 응답) · respond to the changes(변화에 대응하다) · 반응하다 = react / 응답하다 = answer, reply · 지텔프: respond = reply"},
+{e:"tough",p:"형",k:"어려운, 힘든 / 강인한",s:"hard",n:"a tough decision(어려운 결정) · 어려운 = hard, harsh / 강인한 = strong"},
+{e:"religious",p:"형",k:"종교의 / 독실한",s:"spiritual",n:"religion(명: 종교) · a religious festival(종교 축제) · 독실한 = devout"},
+{e:"surrounding",p:"형",k:"주변의, 인근의",s:"neighboring",n:"surround(동: 둘러싸다) · surroundings(명: 환경) · the surrounding area(주변 지역) · adjacent와 유사"},
+{e:"dependent",p:"형",k:"의존하는",s:"reliant",n:"depend(동: 의존하다) · dependent on parents(부모에게 의존하는) · 반의어 independent(독립적인)"},
+{e:"commit",p:"동",k:"저지르다 / 약속하다 / 헌신하다, 전념하다",s:"dedicate",n:"commitment(명: 헌신, 약속) · commit a crime(범죄를 저지르다) · 저지르다 = do, perform / 헌신하다 = dedicate · 지텔프: committed = dedicated"},
+{e:"representative",p:"명/형",k:"대표(자), 대리인 / 대표하는",s:"delegate",n:"represent(동: 대표하다) · a sales representative(영업 사원) · 교재에 동의어 표기 없음(delegate는 참고용)"},
+{e:"exceed",p:"동",k:"넘다, 초과하다",s:"surpass",n:"excess(명: 초과) · exceed the speed limit(제한 속도를 초과하다) · 지텔프: exceeded = surpassed"},
+{e:"revolution",p:"명",k:"혁명 / 변혁, 혁신 / (행성의) 공전",s:"rebellion",n:"revolutionary(형: 혁명적인) · the Industrial Revolution(산업 혁명) · 혁명 = coup, rebellion, uprising / 변혁 = change, transformation"},
+{e:"colleague",p:"명",k:"동료",s:"co-worker",n:"a colleague at work(직장 동료) · associate, partner와 유사"},
+{e:"talented",p:"형",k:"재능 있는, 타고난",s:"gifted",n:"talent(명: 재능) · a talented singer(재능 있는 가수)"},
+{e:"complimentary",p:"형",k:"무료의 / 칭찬하는",s:"free",n:"compliment(명/동: 칭찬(하다)) · a complimentary breakfast(무료 조식) · 헷갈림 주의: complementary(보완하는)"},
+{e:"require",p:"동",k:"필요하다, 요구하다",s:"demand",n:"requirement(명: 요건, 필요조건) · This job requires experience(이 일은 경력이 필요하다)"},
+{e:"fair",p:"형/명",k:"공정한 / 박람회",s:"impartial",n:"fairly(부: 공정하게, 꽤) · a fair judge(공정한 심판) · 박람회 = exposition · 교재에 공정한 뜻의 동의어 표기 없음(impartial은 참고용)"},
+{e:"insist",p:"동",k:"주장하다, 고집부리다",s:"claim",n:"insistence(명: 주장, 고집) · insist on paying(굳이 값을 치르겠다고 고집하다) · 교재에 동의어 표기 없음(claim은 참고용)"},
+{e:"scarce",p:"형",k:"부족한, 희소한",s:"rare",n:"scarcely(부: 거의 ~않다) · scarce resources(부족한 자원) · limited, insufficient와 유사"},
+{e:"burst",p:"동",k:"터지다, 파열하다",s:"explode",n:"a pipe burst(수도관이 터졌다) · burst into tears(눈물을 터뜨리다)"},
+{e:"extinct",p:"형",k:"멸종된",s:"vanished",n:"extinction(명: 멸종) · an extinct animal(멸종된 동물) · 교재에 동의어 표기 없음(vanished는 참고용)"},
+{e:"raise",p:"동",k:"들어 올리다 / (가격·수준을) 높이다 / 제기하다, 언급하다 / 기르다",s:"lift",n:"raise the price(가격을 올리다) · 들어 올리다 = lift, elevate / 높이다 = increase / 언급하다 = mention / 기르다 = support, bring up · 지텔프: raised = mentioned"},
+{e:"responsible",p:"형",k:"책임지고 있는",s:"accountable",n:"responsibility(명: 책임) · be responsible for ~(~에 책임이 있다) · 교재에 동의어 표기 없음(accountable은 참고용)"},
+{e:"numerous",p:"형",k:"수많은",s:"many",n:"numerous complaints(수많은 불만) · plentiful과 유사"},
+{e:"edit",p:"동",k:"편집하다",s:"revise",n:"editor(명: 편집자) · edit a video(영상을 편집하다) · 교재에 동의어 표기 없음(revise는 참고용)"},
+{e:"upcoming",p:"형",k:"다가오는, 곧 있을",s:"forthcoming",n:"the upcoming election(다가오는 선거) · 교재에 동의어 표기 없음(forthcoming은 참고용)"},
+{e:"prove",p:"동",k:"증명하다, 입증하다",s:"demonstrate",n:"proof(명: 증거) · prove his innocence(결백을 입증하다) · 교재에 동의어 표기 없음(demonstrate는 참고용)"},
+{e:"determine",p:"동",k:"알아내다, 밝히다 / 결정하다",s:"identify",n:"determined(형: 단호한) · determine the cause(원인을 밝히다) · 알아내다 = identify, discover / 결정하다 = decide, settle · 지텔프: determine IQ = identify"},
+{e:"artificial",p:"형",k:"인공의, 인조의",s:"man-made",n:"artificial intelligence(인공지능) · 반의어 natural(자연의)"},
+{e:"illness",p:"명",k:"(질)병",s:"disease",n:"ill(형: 아픈) · a serious illness(중병) · sickness, disorder와 유사"},
+{e:"wealthy",p:"형",k:"부유한",s:"rich",n:"wealth(명: 부, 재산) · a wealthy family(부유한 가정) · affluent, prosperous와 유사"},
+{e:"broaden",p:"동",k:"넓어지다, 넓히다",s:"widen",n:"broad(형: 넓은) · broaden one's horizons(시야를 넓히다) · expand와 유사"},
+{e:"candidate",p:"명",k:"후보, 지원자",s:"applicant",n:"a presidential candidate(대통령 후보) · 교재에 동의어 표기 없음(applicant는 참고용)"},
+{e:"engaging",p:"형",k:"매력적인",s:"charming",n:"engage(동: 참여시키다, 끌다) · an engaging story(매력적인 이야기) · attractive, appealing, fascinating과 유사"},
+{e:"attribute",p:"명/동",k:"자질, 속성 / (공로·책임을) ~의 덕으로 돌리다",s:"trait",n:"a key attribute of a leader(지도자의 핵심 자질) · 명사 = trait, quality, feature / 동사 = credit, ascribe · 지텔프: attribute = trait"},
+{e:"climate",p:"명",k:"기후 / 분위기, 풍조",s:"weather",n:"climate change(기후 변화) · 기후 = weather / 분위기 = atmosphere"},
+{e:"property",p:"명",k:"재산, 소유물 / 부동산",s:"possession",n:"private property(사유 재산) · 교재에 동의어 표기 없음(possession은 참고용)"},
+{e:"instrument",p:"명",k:"기구 / 악기",s:"tool",n:"a musical instrument(악기) · 기구 = tool, device, implement"},
+{e:"recognize",p:"동",k:"알아보다, 식별하다 / (중요성·가치를) 인정하다",s:"accept",n:"recognition(명: 인정, 인식) · recognize his talent(그의 재능을 인정하다) · 알아보다 = identify / 인정하다 = accept, acknowledge · 지텔프: recognized = accepted"},
+{e:"commercial",p:"형/명",k:"상업의 / 상업적인, 이윤을 추구하는 / 광고",s:"business",n:"commerce(명: 상업) · a TV commercial(TV 광고) · 상업의 = business / 이윤을 추구하는 = profitable / 광고 = advertisement"},
+{e:"guarantee",p:"동/명",k:"보장하다 / 보증하다 / 보장, 보증",s:"assure",n:"guarantee success(성공을 보장하다) · 동사 = assure, ensure, promise / 명사 = assurance, promise, warranty"},
+{e:"attach",p:"동",k:"붙이다, 연결하다 / 첨부하다",s:"join",n:"attachment(명: 첨부 파일, 애착) · attach a file(파일을 첨부하다) · fasten, fix, stick, glue와 유사"},
+{e:"supervisor",p:"명",k:"감독관, 관리자",s:"manager",n:"supervise(동: 감독하다) · supervision(명: 감독) · inspector, administrator와 유사"},
+{e:"guilty",p:"형",k:"죄책감이 드는 / 유죄의",s:"ashamed",n:"guilt(명: 죄책감, 유죄) · feel guilty(죄책감을 느끼다) · 죄책감 = sorry, regretful / 유죄 = culpable"},
+{e:"undergo",p:"동",k:"겪다",s:"experience",n:"undergo surgery(수술을 받다) · go through, suffer와 유사"},
+{e:"forecast",p:"명/동",k:"예측, 예상 / 예측하다",s:"predict",n:"a weather forecast(일기 예보) · 명사 = prediction, anticipation / 동사 = predict, anticipate, foresee, guess"},
+{e:"arise",p:"동",k:"발생하다",s:"occur",n:"Problems may arise(문제가 발생할 수 있다) · happen, emerge와 유사"},
+{e:"abandon",p:"동",k:"버리다, 떠나다 / 포기하다, 그만두다",s:"dump",n:"abandon the car(차를 버리다) · 버리다 = leave, discard, dump / 포기하다 = give up, stop, drop, discontinue"},
+{e:"reflect",p:"동",k:"비추다, 반사하다 / 반영하다, 나타내다",s:"reveal",n:"reflection(명: 반사, 반영) · reflect the light(빛을 반사하다) · 비추다 = mirror / 나타내다 = reveal, show, indicate · 지텔프: reflects = reveals"},
+{e:"alter",p:"동",k:"변경하다, 바꾸다",s:"change",n:"alteration(명: 변경) · alter the plan(계획을 바꾸다) · vary, modify와 유사"},
+{e:"revenue",p:"명",k:"수입, 수익",s:"income",n:"annual revenue(연간 수익) · proceeds와 유사"}
+];
+
+const CONF=[
+{q:"She felt ______ about forgetting his birthday.",o:["guilty", "guilt"],a:"guilty",e:"guilty = 죄책감이 드는(형용사), guilt = 죄책감(명사)."},
+{q:"The ______ of the plan was quickly accepted.",o:["response", "respond"],a:"response",e:"response = 반응, 응답(명사), respond = 반응하다(동사)."},
+{q:"A ______ breakfast is included in the room price.",o:["complimentary", "complementary"],a:"complimentary",e:"complimentary = 무료의 / complementary = 보완하는(철자 혼동 주의, 교재 외 참고)."},
+{q:"The job has a strict ______ for experience.",o:["requirement", "require"],a:"requirement",e:"requirement = 요건(명사), require = 필요로 하다(동사)."},
+{q:"Water is ______ in the desert.",o:["scarce", "scarcely"],a:"scarce",e:"scarce = 부족한(형용사), scarcely = 거의 ~않다(부사)."},
+{q:"The ______ of the dinosaurs took place long ago.",o:["extinction", "extinct"],a:"extinction",e:"extinction = 멸종(명사), extinct = 멸종된(형용사)."},
+{q:"He is very ______ on his parents for money.",o:["dependent", "independent"],a:"dependent",e:"dependent = 의존하는 ↔ independent = 독립적인."},
+{q:"The company showed a strong ______ to quality.",o:["commitment", "commit"],a:"commitment",e:"commitment = 헌신, 약속(명사), commit = 저지르다·헌신하다(동사)."},
+{q:"Each ______ must pass the final interview.",o:["candidate", "candid"],a:"candidate",e:"candidate = 후보, 지원자 / candid = 솔직한(철자가 비슷해 혼동 주의, 교재 외 참고)."},
+{q:"They will ______ the picture to the e-mail.",o:["attach", "attachment"],a:"attach",e:"attach = 첨부하다(동사), attachment = 첨부 파일(명사)."},
+{q:"The team leader will ______ the new interns.",o:["supervise", "supervision"],a:"supervise",e:"supervise = 감독하다(동사), supervision = 감독(명사)."},
+{q:"She has a rare ______ for music.",o:["talent", "talented"],a:"talent",e:"talent = 재능(명사), talented = 재능 있는(형용사)."},
+{q:"The ______ of the building is private.",o:["property", "proper"],a:"property",e:"property = 재산, 소유물 / proper = 적절한(철자 혼동 주의)."},
+{q:"The scientist will ______ the cause of the disease.",o:["determine", "determined"],a:"determine",e:"determine = 알아내다(동사), determined = 단호한(형용사)."}
+];
+
+const DAILY=[
+{q:"dependent 와 뜻이 가장 가까운 것은?",o:["a trait", "reliant", "assure", "charming"],a:"reliant",e:"dependent = reliant (의존하는)"},
+{q:"attribute 와 뜻이 가장 가까운 것은?",o:["trait", "reliant", "assure", "experience"],a:"trait",e:"attribute = trait (자질)"},
+{q:"engaging 와 뜻이 가장 가까운 것은?",o:["trait", "reliant", "charming", "experience"],a:"charming",e:"engaging = charming (매력적인)"},
+{q:"undergo 와 뜻이 가장 가까운 것은?",o:["charming", "assure", "reliant", "experience"],a:"experience",e:"undergo = experience (겪다)"},
+{q:"guarantee 와 뜻이 가장 가까운 것은?",o:["trait", "assure", "charming", "reliant"],a:"assure",e:"guarantee = assure (보장하다)"},
+{q:"They had to <u>abandon</u> the car in the snow. 에서 abandon 과 뜻이 가장 가까운 것은?",o:["give up", "remove", "dump", "stop"],a:"dump",e:"abandon = dump (버리다)"},
+{q:"It was a <u>tough</u> decision for the board. 에서 tough 와 뜻이 가장 가까운 것은?",o:["relevant", "technical", "strong", "hard"],a:"hard",e:"tough = hard (어려운)"},
+{q:"They tried to <u>determine</u> the cause of the fire. 에서 determine 과 뜻이 가장 가까운 것은?",o:["divide", "identify", "alter", "affect"],a:"identify",e:"determine = identify (알아내다)"},
+{q:"The campaign aims to <u>raise</u> awareness of recycling. 에서 raise 와 뜻이 가장 가까운 것은?",o:["increase", "mention", "lift", "support"],a:"increase",e:"raise = increase (높이다)"},
+{q:"Please <u>respond</u> to the e-mail by Friday. 에서 respond 와 뜻이 가장 가까운 것은?",o:["reply", "react", "confirm", "comment"],a:"reply",e:"respond = reply (응답하다)"},
+{q:"Ben <u>committed</u> himself to his studies. 에서 committed 와 뜻이 가장 가까운 것은?",o:["ordered", "dedicated"],a:"dedicated",e:"지텔프 유형: commit = dedicate (헌신하다)"},
+{q:"The artist was <u>recognized</u> as a great painter. 에서 recognized 와 뜻이 가장 가까운 것은?",o:["identified", "accepted"],a:"accepted",e:"지텔프 유형: recognize = accept (인정하다)"},
+{q:"The chart <u>reflects</u> the change in sales. 에서 reflects 와 뜻이 가장 가까운 것은?",o:["mirrors", "reveals"],a:"reveals",e:"지텔프 유형: reflect = reveal (나타내다)"},
+{q:"Sales <u>exceeded</u> our goal this year. 에서 exceeded 와 뜻이 가장 가까운 것은?",o:["connected", "surpassed"],a:"surpassed",e:"지텔프 유형: exceed = surpass (넘다)"},
+{q:"The mayor <u>raised</u> the issue at the meeting. 에서 raised 와 뜻이 가장 가까운 것은?",o:["criticized", "mentioned"],a:"mentioned",e:"지텔프 유형: raise = mention (언급하다)"},
+{q:"Tests can <u>determine</u> a person's IQ. 에서 determine 과 뜻이 가장 가까운 것은?",o:["identify", "decide"],a:"identify",e:"지텔프 유형: determine = identify (알아내다)"},
+{q:"Honesty is an important <u>attribute</u> of a leader. 에서 attribute 와 뜻이 가장 가까운 것은?",o:["value", "trait"],a:"trait",e:"지텔프 유형: attribute = trait (자질)"}
+];
+
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function distract(correct,pool){const out=[];for(const x of shuffle(pool)){if(x!==correct&&!out.includes(x)){out.push(x);if(out.length===3)break;}}return out;}
+
+const S={};
+function sc(sec,ok){S[sec]=S[sec]||{ok:0,t:0};S[sec].t++;if(ok)S[sec].ok++;document.getElementById('sc-'+sec).textContent=S[sec].ok+' / '+S[sec].t;}
+
+function renderQ(host,sec,num,text,options,correct,expl){
+  const opts=shuffle(options);
+  const d=document.createElement('div');d.className='q';
+  d.innerHTML='<div><b>'+num+'.</b> '+text+'</div><div class="opts"></div><div class="exp"></div>';
+  const box=d.querySelector('.opts'),ex=d.querySelector('.exp');
+  opts.forEach(o=>{
+    const b=document.createElement('button');b.textContent=o;
+    b.onclick=()=>{
+      if(d.dataset.done)return;d.dataset.done='1';
+      const ok=o===correct;b.classList.add(ok?'ok':'bad');
+      if(!ok){box.querySelectorAll('button').forEach(x=>{if(x.textContent===correct)x.classList.add('ok');});}
+      ex.innerHTML=(ok?'✅ 정답!':'❌ 정답: <b>'+correct+'</b>')+(expl?'<br>💡 '+expl:'');
+      ex.style.display='block';
+      sc(sec,ok);
+    };
+    box.appendChild(b);
+  });
+  host.appendChild(d);
+}
+
+const enPool=W.map(x=>x.e), koPool=W.map(x=>x.k), synPool=W.map(x=>x.s);
+
+const BAD={"experience": ["undergo"], "undergo": ["experience"], "alter": ["reflect"], "reflect": ["alter", "recognize"], "attach": ["commit"], "commit": ["attach"], "raise": ["exceed"], "exceed": ["raise"], "determine": ["prove"], "prove": ["determine"], "recognize": ["reflect"], "require": ["insist"], "insist": ["require"], "respond": ["guarantee"], "guarantee": ["respond"], "illness": ["guilty"], "guilty": ["illness"], "fair": ["complimentary"], "complimentary": ["fair"], "surrounding": ["upcoming"], "upcoming": ["surrounding"], "responsible": ["representative"], "representative": ["responsible"], "colleague": ["supervisor"], "supervisor": ["colleague"], "revolution": ["burst"], "burst": ["revolution"], "climate": ["property"], "property": ["climate"], "candidate": ["engaging"], "engaging": ["candidate"], "wealthy": ["revenue"], "revenue": ["wealthy"]};
+const byE={};W.forEach(w=>byE[w.e]=w);
+const bad=w=>(BAD[w.e]||[]).map(x=>byE[x]).filter(Boolean);
+W.forEach((w,i)=>{
+  const ex=bad(w).map(x=>x.k);
+  renderQ(document.getElementById('p1'),'p1',i+1,'<b>'+w.e+'</b> 의 뜻으로 알맞은 것은?',
+    [w.k,...distract(w.k,koPool.filter(x=>!ex.includes(x)))], w.k, w.n);
+});
+W.forEach((w,i)=>{
+  const ex=bad(w).map(x=>x.e);
+  renderQ(document.getElementById('p2b'),'p2',i+1,'<b>'+w.k+'</b> 에 해당하는 영어 단어는?',
+    [w.e,...distract(w.e,enPool.filter(x=>!ex.includes(x)))], w.e, w.p+' · '+w.n);
+});
+W.forEach((w,i)=>{
+  const ex=bad(w).map(x=>x.s);
+  renderQ(document.getElementById('p3b'),'p3',i+1,'<b>'+w.e+'</b> 의 동의어(유의어)로 가장 알맞은 것은?',
+    [w.s,...distract(w.s,synPool.filter(x=>!ex.includes(x)))], w.s, w.k+' · '+w.n);
+});
+CONF.forEach((c,i)=>{
+  renderQ(document.getElementById('p4b'),'p4',i+1,c.q,c.o,c.a,c.e);
+});
+DAILY.forEach((d,i)=>{
+  renderQ(document.getElementById('p5b'),'p5',i+1,d.q,d.o,d.a,d.e);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="color-scheme" content="light">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>지텔프 단어 DAY 04 퀴즈</title>
+<style>
+body{font-family:system-ui,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;max-width:880px;margin:0 auto;padding:20px;line-height:1.6;color:#1f2937;background:#fff}
+h1{font-size:24px;margin-bottom:4px}
+.sub{color:#6b7280;font-size:14px;margin-top:0}
+h2{font-size:19px;border-bottom:2px solid #0f766e;padding-bottom:4px;margin-top:36px}
+.score{font-weight:bold;color:#0f766e;margin-left:10px;font-size:15px}
+.q{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:12px 14px;margin:10px 0}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:8px}
+button{padding:8px 10px;border:1px solid #cbd5e1;border-radius:6px;background:#fff;cursor:pointer;text-align:left;font-size:14px;font-family:inherit}
+button:hover{background:#f0fdfa}
+button.ok{background:#d1fae5;border-color:#10b981}
+button.bad{background:#fee2e2;border-color:#ef4444}
+.exp{display:none;margin-top:8px;font-size:13px;color:#374151;background:#f3f4f6;padding:6px 8px;border-radius:6px}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff}
+th,td{border:1px solid #e5e7eb;padding:6px 8px;vertical-align:top;text-align:left}
+th{background:#ecfdf5}
+ul{padding-left:20px}
+li{margin:4px 0}
+.box{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:12px 16px}
+@media (max-width:600px){.opts{grid-template-columns:1fr}}
+@media print{.quiz{display:none}button{display:none}}
+
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{overflow-wrap:break-word}
+a{word-break:break-word}
+@media (max-width:600px){
+body{padding:14px 12px}
+h1{font-size:20px}h2{font-size:17px}
+button{min-height:44px;font-size:15px;padding:10px 12px}
+.q{padding:10px 12px}
+table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch;font-size:12.5px}
+th,td{padding:5px 8px;word-break:keep-all;overflow-wrap:normal;white-space:normal}
+th:nth-child(2),td:nth-child(2){white-space:nowrap}
+.box{padding:10px 12px}
+}
+</style>
+</head>
+<body>
+
+<h1>지텔프 단어 DAY 04 퀴즈 · 핵심요약</h1>
+<p class="sub">출처: G-TELP VOCA DAY 04 (교재 72~83페이지 + 데일리 테스트·패러프레이징) · 단어 01~50 전부 포함 · 보기를 누르면 바로 채점됩니다.</p>
+
+<nav class="quiz">
+  <a href="#p1">Part1 영→뜻</a>
+  <a href="#p2">Part2 뜻→영</a>
+  <a href="#p3">Part3 동의어</a>
+  <a href="#p4">Part4 헷갈리는 단어</a>
+  <a href="#p5">Part5 데일리테스트·출제유형</a>
+  <a href="#sum">핵심요약</a>
+</nav>
+
+<h2 class="quiz">Part 1. 영단어 → 뜻 고르기 <span class="score" id="sc-p1">0 / 0</span></h2>
+<div id="p1" class="quiz"></div>
+
+<h2 class="quiz" id="p2">Part 2. 뜻 → 영단어 고르기 <span class="score" id="sc-p2">0 / 0</span></h2>
+<div id="p2b" class="quiz"></div>
+
+<h2 class="quiz" id="p3">Part 3. 동의어(유의어) 고르기 <span class="score" id="sc-p3">0 / 0</span></h2>
+<div id="p3b" class="quiz"></div>
+
+<h2 class="quiz" id="p4">Part 4. 헷갈리기 쉬운 단어 구별 <span class="score" id="sc-p4">0 / 0</span></h2>
+<div id="p4b" class="quiz"></div>
+
+<h2 class="quiz" id="p5">Part 5. 데일리 테스트 & 지텔프 출제 유형 <span class="score" id="sc-p5">0 / 0</span></h2>
+<div id="p5b" class="quiz"></div>
+
+<h2 id="sum">핵심요약본</h2>
+
+<div class="box">
+<h3>1. 동의어 묶음 (시험 빈출)</h3>
+<ul>
+  <li>encounter · meet · face · experience · confront → <b>직면하다, 마주치다</b></li>
+  <li>presence · existence → <b>존재</b> / servant · attendant → <b>종업원</b> / welfare · wellbeing → <b>복지</b></li>
+  <li>organization · institution → <b>기구, 단체</b> / immediately · instantly · right away → <b>즉시</b></li>
+  <li>victim · casualty → <b>피해자</b> / donate · contribute · give → <b>기부하다</b> / contribution · donation → <b>기부</b></li>
+  <li>supply · provide · give · equip → <b>공급하다</b> / equip · furnish · provide · supply · outfit → <b>갖추게 하다</b></li>
+  <li>violent · brutal → <b>폭력적인</b> / further · additional · more → <b>추가의</b></li>
+  <li>primary · main · chief · leading → <b>주된</b> / proper · appropriate · right · correct → <b>적절한</b></li>
+  <li>volunteer · offer → <b>제안하다</b> / procedure · process · step → <b>절차</b></li>
+  <li>recruit · gather · draft · enlist → <b>채용하다</b> / recruit(명) · apprentice · novice · beginner → <b>신입</b></li>
+  <li>volume · amount · quantity · capacity → <b>양</b> / proportion · amount · volume → <b>비율</b></li>
+  <li>subsequent · following · consequent · resulting → <b>후속의</b> / demand · require · request · claim → <b>요구하다</b></li>
+  <li>demand(명) · desire · need · requirement → <b>요구, 수요</b> / mysterious · puzzling · weird · strange → <b>불가사의한</b></li>
+  <li>transport · deliver · transfer → <b>운송하다</b> / publication · magazine · book · periodical → <b>간행물</b></li>
+  <li>ease(명) · comfort · relaxation → <b>쉬움, 편안</b> / ease(동) · relieve · alleviate · lessen · calm → <b>덜다, 안정시키다</b></li>
+  <li>progress · advance · advancement → <b>진전</b> / progress(동) · proceed · continue → <b>진행하다</b></li>
+  <li>entire · whole · full → <b>전체의</b> / prospective · potential · possible → <b>장래의</b></li>
+  <li>audit · inspect → <b>감사하다</b> / relevant · related · pertinent → <b>관련된</b></li>
+  <li>attempt · try · effort → <b>시도</b> / substantial · large · considerable · significant → <b>상당한</b></li>
+  <li>closely · carefully → <b>면밀하게</b> / proof · evidence · verification → <b>증거</b></li>
+  <li>standard · norm · criterion → <b>기준</b> / status · position · standing → <b>지위</b> / status · condition · development → <b>상태</b></li>
+  <li>taste · flavor → <b>맛</b> / taste · liking · preference → <b>취향</b> / taste · judgment → <b>안목</b></li>
+  <li>ingredient · component · element → <b>재료, 요소</b> / classify · categorize · label · sort → <b>분류하다</b></li>
+  <li>succeed · thrive → <b>성공하다</b> / succeed · replace · follow → <b>계승하다</b> / slightly · marginally → <b>약간</b></li>
+</ul>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>2. 헷갈리기 쉬운 단어 (구별 포인트)</h3>
+<ul>
+  <li><b>proportion vs proper</b> — 비율, 비중 / 적절한. 철자가 비슷해 혼동하기 쉬움.</li>
+  <li><b>progress vs process vs procedure</b> — 진전 / 과정 / 절차. 철자가 비슷하니 문맥으로 구별.</li>
+  <li><b>contribution vs donation</b> — 둘 다 '기부'. contribution은 기여·공헌의 뜻이 더 넓음.</li>
+  <li><b>supply vs equip</b> — supply는 공급하다, equip은 장비를 갖추게 하다(지텔프: equip = furnish).</li>
+  <li><b>demand vs request</b> — 동사로 둘 다 '요구하다'. demand는 강한 요구, request는 정중한 요청. 명사 demand = requirement.</li>
+  <li><b>immediately vs immediate</b> — 즉시(부) / 즉각적인(형).</li>
+  <li><b>success vs succeed vs successful</b> — 성공(명) / 성공하다(동) / 성공한(형). succeed에는 '계승하다'도 있음.</li>
+  <li><b>serve vs servant</b> — 음식을 제공하다·근무하다(동) / 종업원, 하인(명).</li>
+  <li><b>organize vs organization</b> — 조직하다(동) / 기구, 단체(명).</li>
+  <li><b>publish vs publication</b> — 출판하다(동) / 출판, 간행물(명).</li>
+  <li><b>violence vs violent</b> — 폭력(명) / 폭력적인(형).</li>
+  <li><b>prove vs proof</b> — 증명하다(동) / 증거(명).</li>
+  <li><b>relevance vs relevant</b> — 관련성(명) / 적절한, 관련된(형).</li>
+  <li><b>discover vs discovery</b> — 발견하다(동) / 발견(명).</li>
+</ul>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>3. 다의어 (뜻이 여러 개인 단어)</h3>
+<ul>
+  <li><b>presence</b> — 존재·참석 / (기업의) 입지, 영향력</li>
+  <li><b>servant</b> — 종업원·봉사자 / 하인</li>
+  <li><b>supply</b> — 공급(명) / 공급량(명) / 공급하다(동)</li>
+  <li><b>further</b> — 추가의(형) / 더 멀리(부) / 더 나아가(부)</li>
+  <li><b>volunteer</b> — 지원자(명) / 자원하다(동) / 제안하다(동)</li>
+  <li><b>recruit</b> — 채용하다(동) / 신입·신병(명)</li>
+  <li><b>volume</b> — 음량 / 양·용량</li>
+  <li><b>piece</b> — 조각·부분 / 작품</li>
+  <li><b>demand</b> — 요구하다(동) / 수요·요구(명)</li>
+  <li><b>ease</b> — 쉬움(명) / 덜다·완화하다(동)</li>
+  <li><b>progress</b> — 진행·발전(명) / 진행하다(동)</li>
+  <li><b>closely</b> — 면밀하게 / 밀접하게 · <b>status</b> — 지위 / 상태</li>
+  <li><b>taste</b> — 맛 / 취향 / 안목 / 맛보다 · <b>succeed</b> — 성공하다 / 계승하다</li>
+</ul>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>4. 품사 & 파생어 체크</h3>
+<ul>
+  <li>serve → servant(명) / organization → organize(동) / immediately → immediate(형)</li>
+  <li>donate → donation(명) / violent → violence(명) / primary → primarily(부)</li>
+  <li>contribution → contribute(동), contributor(명) / volunteer → voluntary(형) / proper → properly(부)</li>
+  <li>recruit → recruitment(명) / widely → wide(형) / subsequent → subsequently(부)</li>
+  <li>demand → demanding(형) / strategy → strategic(형) / priority → prioritize(동)</li>
+  <li>mysterious → mystery(명) / equip → equipment(명) / transport → transportation(명)</li>
+  <li>publication → publish(동) / ease → easy(형) / slightly → slight(형)</li>
+  <li>entire → entirely(부) / discover → discovery(명) / prospective → prospect(명)</li>
+  <li>audit → auditor(명) / relevant → relevance(명) / endangered → endanger(동)</li>
+  <li>substantial → substantially(부) / closely → close(형) / proof → prove(동)</li>
+  <li>standard → standardize(동) / succeed → success(명) / classify → classification(명)</li>
+</ul>
+</div>
+
+<div class="box" style="margin-top:12px">
+<h3>5. 패러프레이징 빈출 표현 (교재 83p)</h3>
+<table>
+<tr><th>원래 표현</th><th>바꾼 표현</th><th>원래 표현</th><th>바꾼 표현</th></tr>
+<tr><td>anniversary (기념일)</td><td>milestone (중요한 단계)</td><td>shape (모양)</td><td>appearance (외관)</td></tr>
+<tr><td>attached (첨부된)</td><td>connected (연결된)</td><td>Artificial Intelligence (인공지능)</td><td>machines (기계)</td></tr>
+<tr><td>quit one's jobs (일을 그만두다)</td><td>resign (사임하다)</td><td>ban (금지하다)</td><td>limit (제한하다)</td></tr>
+<tr><td>background (배경)</td><td>experience (경험)</td><td>promise (약속)</td><td>resolution (결심)</td></tr>
+<tr><td>be hunted (사냥당하다)</td><td>be caught and killed (잡혀서 죽다)</td><td>Baptist minister (침례교 목사)</td><td>Preacher (설교자)</td></tr>
+<tr><td>bear similarities (유사점을 갖다)</td><td>resemble (닮다)</td><td>on time (정각에)</td><td>promptly (즉시)</td></tr>
+<tr><td>monitor (감시하다)</td><td>keep track of (계속 파악하다)</td><td>biodegradable (생분해성의)</td><td>can be broken down (분해될 수 있는)</td></tr>
+<tr><td>cease making (생산을 멈추다)</td><td>discontinue (중단하다)</td><td></td><td></td></tr>
+</table>
+</div>
+
+
+<h2>학습 팁</h2>
+<div class="box">
+<ul>
+  <li>동사 동의어(supply·provide·equip, ease·relieve·alleviate)는 <b>묶음</b>으로 함께 외우기.</li>
+  <li>한 단어에 여러 뜻이 있는 단어(taste, status, volume, demand, succeed)는 <b>문장 속 뜻</b>을 같이 적어 두기.</li>
+  <li>지텔프 동의어 출제 유형 — encountered = met, demand = requirement, equip = furnish, volunteered = offered, taste = liking.</li>
+  <li>철자가 비슷한 단어(progress/process/procedure, proportion/proper)는 <b>뜻을 나란히</b> 비교해서 외우기.</li>
+  <li>틀린 문제는 다음 날 Part 4와 Part 1부터 다시 풀어보기.</li>
+</ul>
+</div>
+
+<script>
+const W=[
+{e:"encounter",p:"동",k:"직면하다, 마주치다",s:"meet",n:"encounter difficulties(어려움에 직면하다) · face, experience, confront와 유사 · 지텔프: encountered = met"},
+{e:"presence",p:"명",k:"존재, 있음, 참석 / (기업의) 입지, 영향력",s:"existence",n:"present(형: 참석한) · the presence of police(경찰의 존재) · 교재: presence = existence"},
+{e:"servant",p:"명",k:"종업원, 봉사자 / 하인",s:"attendant",n:"serve(동: 음식을 제공하다, 근무하다) · a public servant(공무원) · 교재: servant = attendant"},
+{e:"vehicle",p:"명",k:"차, 차량",s:"automobile",n:"a motor vehicle(자동차) · 교재에 동의어 표기 없음(automobile은 참고용)"},
+{e:"welfare",p:"명",k:"복지",s:"wellbeing",n:"social welfare(사회 복지) · welfare of children(아동 복지)"},
+{e:"organization",p:"명",k:"기구, 단체",s:"institution",n:"organize(동: 조직하다, 정리하다) · a non-profit organization(비영리 단체)"},
+{e:"immediately",p:"부",k:"즉시, 바로",s:"instantly",n:"immediate(형: 즉각적인) · respond immediately(즉시 응답하다) · right away와 유사"},
+{e:"victim",p:"명",k:"피해자, 희생자",s:"casualty",n:"the victims of the flood(홍수 피해자들) · 교재: victim = casualty"},
+{e:"donate",p:"동",k:"기부하다",s:"contribute",n:"donation(명: 기부) · donate money to charity(자선단체에 기부하다) · give와 유사"},
+{e:"supply",p:"명/동",k:"공급 / 공급량 / 공급하다, 제공하다",s:"provide",n:"a water supply(상수 공급) · 명사 = provision / 동사 = provide, give, equip"},
+{e:"violent",p:"형",k:"폭력적인, 난폭한",s:"brutal",n:"violence(명: 폭력) · a violent storm(맹렬한 폭풍) · 교재: violent = brutal"},
+{e:"further",p:"형/부",k:"추가의, 그 이상의 / 더 멀리 / 더 나아가",s:"additional",n:"further information(추가 정보) · more와 유사"},
+{e:"primary",p:"형",k:"주된, 가장 중요한",s:"chief",n:"primarily(부: 주로) · the primary cause(주된 원인) · main, leading과 유사"},
+{e:"contribution",p:"명",k:"기여, 공헌, 기부",s:"donation",n:"contribute(동: 기여하다, 기부하다) · contributor(명: 기여자) · a contribution to science(과학에 대한 기여)"},
+{e:"volunteer",p:"명/동",k:"지원자 / 자원하다 / 제안하다",s:"offer",n:"voluntary(형: 자발적인) · volunteer to help(돕겠다고 자원하다) · 지텔프: volunteered = offered"},
+{e:"proper",p:"형",k:"적절한, 올바른",s:"appropriate",n:"properly(부: 제대로) · proper clothes(적절한 복장) · right, correct와 유사"},
+{e:"procedure",p:"명",k:"절차, 수순",s:"process",n:"follow the procedure(절차를 따르다) · step과 유사"},
+{e:"recruit",p:"동/명",k:"채용하다, 뽑다, 모집하다 / 신입, 신병",s:"enlist",n:"recruitment(명: 채용, 모집) · recruit new staff(신입 직원을 채용하다) · 동사 = gather, draft, enlist / 명사 = apprentice, novice, beginner"},
+{e:"volume",p:"명",k:"볼륨, 음량 / 양, 용량",s:"amount",n:"a high volume of traffic(많은 교통량) · 양 = quantity, capacity"},
+{e:"widely",p:"부",k:"널리",s:"broadly",n:"wide(형: 넓은) · widely used(널리 사용되는) · 교재에 동의어 표기 없음(broadly는 참고용)"},
+{e:"piece",p:"명",k:"조각, 부분 / 작품",s:"slice",n:"a piece of cake(케이크 한 조각) · 조각 = slice, fraction / 작품 = work"},
+{e:"subsequent",p:"형",k:"후속의, 다음의",s:"following",n:"subsequently(부: 그 후에) · subsequent events(후속 사건들) · consequent, resulting과 유사"},
+{e:"demand",p:"동/명",k:"요구하다 / 수요, 요구",s:"requirement",n:"demanding(형: 까다로운) · demand an apology(사과를 요구하다) · 동사 = require, request, claim / 명사 = desire, need, requirement · 지텔프: demand = requirement"},
+{e:"strategy",p:"명",k:"전략",s:"plan",n:"strategic(형: 전략적인) · a marketing strategy(마케팅 전략) · 교재에 동의어 표기 없음(plan은 참고용)"},
+{e:"priority",p:"명",k:"우선, 우선 사항",s:"preference",n:"prioritize(동: 우선순위를 정하다) · top priority(최우선 사항) · 교재에 동의어 표기 없음(preference는 참고용)"},
+{e:"proportion",p:"명",k:"비율, 비중",s:"percentage",n:"a large proportion of students(상당 비율의 학생들) · 교재: proportion = amount, volume"},
+{e:"mysterious",p:"형",k:"불가사의한, 신비한",s:"puzzling",n:"mystery(명: 수수께끼, 미스터리) · a mysterious sound(수상한 소리) · weird, strange와 유사"},
+{e:"equip",p:"동",k:"(장비를) 갖추게 하다",s:"furnish",n:"equipment(명: 장비) · be equipped with ~(~을 갖추고 있다) · provide, supply, outfit과 유사 · 지텔프: equip = furnish"},
+{e:"transport",p:"동/명",k:"운송하다, 옮기다 / 운송",s:"deliver",n:"transportation(명: 운송, 교통) · transport goods(상품을 운송하다) · transfer와 유사"},
+{e:"publication",p:"명",k:"출판, 발행 / 간행물",s:"magazine",n:"publish(동: 출판하다) · a monthly publication(월간 간행물) · book, periodical과 유사"},
+{e:"ease",p:"명/동",k:"쉬움, 용이함 / 덜다, 완화하다, 안정시키다",s:"relieve",n:"easy(형: 쉬운) · ease the pain(고통을 덜다) · 명사 = comfort, relaxation / 동사 = relieve, alleviate, lessen, calm"},
+{e:"progress",p:"명/동",k:"진행, 진척, 발전 / 진행하다",s:"advance",n:"make progress(진전을 이루다) · 명사 = advancement / 동사 = proceed, continue"},
+{e:"slightly",p:"부",k:"약간, 근소하게",s:"marginally",n:"slight(형: 약간의) · slightly higher(약간 더 높은)"},
+{e:"entire",p:"형",k:"전체의",s:"whole",n:"entirely(부: 완전히) · the entire world(전 세계) · full과 유사"},
+{e:"discover",p:"동",k:"발견하다, 알아내다",s:"find",n:"discovery(명: 발견) · discover a new planet(새 행성을 발견하다)"},
+{e:"prospective",p:"형",k:"장래의, 유망한",s:"potential",n:"prospect(명: 전망, 가망) · prospective customers(장래의 고객들) · possible과 유사"},
+{e:"audit",p:"명/동",k:"감사, 회계감사 / 회계감사를 하다",s:"inspect",n:"auditor(명: 감사관) · an annual audit(연례 감사) · 교재: audit = inspect"},
+{e:"relevant",p:"형",k:"적절한, 관련된",s:"pertinent",n:"relevance(명: 관련성) · relevant information(관련 정보) · related와 유사"},
+{e:"attempt",p:"동/명",k:"시도하다 / 시도, 노력",s:"try",n:"attempt to escape(탈출을 시도하다) · 동사 = try / 명사 = try, effort"},
+{e:"endangered",p:"형",k:"멸종 위기에 처한",s:"threatened",n:"endanger(동: 위태롭게 하다) · endangered species(멸종 위기종) · 교재에 동의어 표기 없음(threatened는 참고용)"},
+{e:"substantial",p:"형",k:"상당한",s:"considerable",n:"substantially(부: 상당히) · substantial changes(상당한 변화) · large, significant와 유사"},
+{e:"closely",p:"부",k:"면밀하게, 꼼꼼하게 / 밀접하게, 긴밀하게",s:"carefully",n:"close(형: 가까운) · closely examine(면밀히 살펴보다)"},
+{e:"proof",p:"명",k:"증거",s:"evidence",n:"prove(동: 증명하다) · proof of identity(신원 증명) · verification과 유사"},
+{e:"standard",p:"명/형",k:"기준, 표준, 규격 / 기준의, 표준의",s:"norm",n:"standardize(동: 표준화하다) · meet the standard(기준을 충족하다) · criterion과 유사"},
+{e:"status",p:"명",k:"지위, 위상 / 상태, 상황",s:"position",n:"social status(사회적 지위) · 지위 = position, standing / 상태 = condition, development"},
+{e:"taste",p:"명/동",k:"맛, 미각 / 취향, 기호 / 감각, 안목 / 맛보다",s:"liking",n:"tasty(형: 맛있는) · a good taste in music(좋은 음악 취향) · 맛 = flavor / 취향 = liking, preference / 안목 = judgment · 지텔프: taste = liking"},
+{e:"ingredient",p:"명",k:"요리의 재료, 요소",s:"component",n:"an ingredient of the soup(수프의 재료) · element와 유사"},
+{e:"succeed",p:"동",k:"성공하다 / 계승하다, 뒤를 잇다",s:"thrive",n:"success(명: 성공) · successful(형: 성공한) · succeed his father(아버지의 뒤를 잇다) · 성공하다 = thrive / 계승하다 = replace, follow"},
+{e:"classify",p:"동",k:"분류하다",s:"categorize",n:"classification(명: 분류) · classify books by subject(주제별로 책을 분류하다) · label, sort와 유사"},
+{e:"sum",p:"명",k:"액수, 금액 / 총합",s:"total",n:"a large sum of money(큰 금액) · 교재에 동의어 표기 없음(total은 참고용)"}
+];
+
+const CONF=[
+{q:"The company will ______ the new staff to the project.",o:["recruit", "recruitment"],a:"recruit",e:"recruit = 채용하다(동사), recruitment = 채용, 모집(명사)."},
+{q:"A ______ of the profits went to charity.",o:["proportion", "proper"],a:"proportion",e:"proportion = 비율, 비중 / proper = 적절한(철자가 비슷해 혼동 주의)."},
+{q:"The police arrived ______ after the call.",o:["immediately", "immediate"],a:"immediately",e:"immediately = 즉시(부사), immediate = 즉각적인(형용사)."},
+{q:"The new ______ must be followed carefully.",o:["procedure", "proceed"],a:"procedure",e:"procedure = 절차(명사), proceed = 진행하다(동사)."},
+{q:"The ______ of the flood needed help.",o:["victims", "violence"],a:"victims",e:"victim = 피해자(명사), violence = 폭력(명사)."},
+{q:"She made great ______ in her studies.",o:["progress", "process"],a:"progress",e:"progress = 진전, 발전 / process = 과정(철자가 비슷해 혼동 주의)."},
+{q:"Please ______ money to the local shelter.",o:["donate", "donation"],a:"donate",e:"donate = 기부하다(동사), donation = 기부(명사)."},
+{q:"The museum will ______ the old rooms with new tools.",o:["equip", "equipment"],a:"equip",e:"equip = 갖추게 하다(동사), equipment = 장비(명사)."},
+{q:"A ______ number of people voted for her.",o:["substantial", "substantially"],a:"substantial",e:"substantial = 상당한(형용사), substantially = 상당히(부사)."},
+{q:"The ______ of the discovery surprised everyone.",o:["success", "succeed"],a:"success",e:"success = 성공(명사), succeed = 성공하다(동사)."},
+{q:"We must ______ the books by subject.",o:["classify", "classification"],a:"classify",e:"classify = 분류하다(동사), classification = 분류(명사)."},
+{q:"Add one more ______ to the soup.",o:["ingredient", "audit"],a:"ingredient",e:"ingredient = 요리의 재료 / audit = 회계감사."},
+{q:"The ______ of this letter is private.",o:["content", "contain"],a:"content",e:"content = 내용(명사), contain = 포함하다(동사) (교재 외 참고)."},
+{q:"The new ______ affects all students.",o:["publication", "publish"],a:"publication",e:"publication = 출판, 간행물(명사), publish = 출판하다(동사)."},
+{q:"It was a very ______ sound in the night.",o:["mysterious", "mystery"],a:"mysterious",e:"mysterious = 불가사의한(형용사), mystery = 수수께끼(명사)."}
+];
+
+const DAILY=[
+{q:"proper 와 뜻이 가장 가까운 것은?",o:["appropriate", "amount", "provide", "thrive"],a:"appropriate",e:"proper = appropriate (적절한)"},
+{q:"volume 와 뜻이 가장 가까운 것은?",o:["request", "amount", "appropriate", "thrive"],a:"amount",e:"volume = amount (양)"},
+{q:"supply 와 뜻이 가장 가까운 것은?",o:["thrive", "request", "provide", "amount"],a:"provide",e:"supply = provide (공급하다)"},
+{q:"succeed 와 뜻이 가장 가까운 것은?",o:["appropriate", "provide", "thrive", "request"],a:"thrive",e:"succeed = thrive (성공하다)"},
+{q:"demand 와 뜻이 가장 가까운 것은?",o:["amount", "thrive", "provide", "request"],a:"request",e:"demand = request (요구하다)"},
+{q:"The doctor will <u>closely</u> examine the patient. 에서 closely 와 뜻이 가장 가까운 것은?",o:["slightly", "carefully", "widely", "exclusively"],a:"carefully",e:"closely = carefully (면밀하게)"},
+{q:"The music helped to <u>ease</u> his mind. 에서 ease 와 뜻이 가장 가까운 것은?",o:["convey", "open", "calm", "weaken"],a:"calm",e:"ease = calm (안정시키다)"},
+{q:"The speakers played at a high <u>volume</u>. 에서 volume 과 뜻이 가장 가까운 것은?",o:["quality", "loudness", "transfer", "amount"],a:"amount",e:"volume = amount (양)"},
+{q:"The city made <u>substantial</u> changes to the plan. 에서 substantial 과 뜻이 가장 가까운 것은?",o:["considerable", "proper", "positive", "firm"],a:"considerable",e:"substantial = considerable (상당한)"},
+{q:"Trucks <u>transport</u> goods across the country. 에서 transport 와 뜻이 가장 가까운 것은?",o:["remove", "deliver", "manufacture", "banish"],a:"deliver",e:"transport = deliver (운송하다)"},
+{q:"Ana <u>encountered</u> an old friend at the mall. 에서 encountered 와 뜻이 가장 가까운 것은?",o:["fought", "met"],a:"met",e:"지텔프 유형: encounter = meet (마주치다)"},
+{q:"The strike created a <u>demand</u> for new workers. 에서 demand 와 뜻이 가장 가까운 것은?",o:["requirement", "surplus"],a:"requirement",e:"지텔프 유형: demand(명) = requirement (요구)"},
+{q:"The lab is <u>equipped</u> with modern tools. 에서 equip 과 뜻이 가장 가까운 것은?",o:["furnish", "encounter"],a:"furnish",e:"지텔프 유형: equip = furnish (갖추게 하다)"},
+{q:"Many students <u>volunteered</u> to help at the fair. 에서 volunteered 와 뜻이 가장 가까운 것은?",o:["offered", "provided"],a:"offered",e:"지텔프 유형: volunteer = offer (자원하다)"},
+{q:"He has a good <u>taste</u> in art. 에서 taste 와 뜻이 가장 가까운 것은?",o:["liking", "sample"],a:"liking",e:"지텔프 유형: taste = liking (취향)"}
+];
+
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function distract(correct,pool){const out=[];for(const x of shuffle(pool)){if(x!==correct&&!out.includes(x)){out.push(x);if(out.length===3)break;}}return out;}
+
+const S={};
+function sc(sec,ok){S[sec]=S[sec]||{ok:0,t:0};S[sec].t++;if(ok)S[sec].ok++;document.getElementById('sc-'+sec).textContent=S[sec].ok+' / '+S[sec].t;}
+
+function renderQ(host,sec,num,text,options,correct,expl){
+  const opts=shuffle(options);
+  const d=document.createElement('div');d.className='q';
+  d.innerHTML='<div><b>'+num+'.</b> '+text+'</div><div class="opts"></div><div class="exp"></div>';
+  const box=d.querySelector('.opts'),ex=d.querySelector('.exp');
+  opts.forEach(o=>{
+    const b=document.createElement('button');b.textContent=o;
+    b.onclick=()=>{
+      if(d.dataset.done)return;d.dataset.done='1';
+      const ok=o===correct;b.classList.add(ok?'ok':'bad');
+      if(!ok){box.querySelectorAll('button').forEach(x=>{if(x.textContent===correct)x.classList.add('ok');});}
+      ex.innerHTML=(ok?'✅ 정답!':'❌ 정답: <b>'+correct+'</b>')+(expl?'<br>💡 '+expl:'');
+      ex.style.display='block';
+      sc(sec,ok);
+    };
+    box.appendChild(b);
+  });
+  host.appendChild(d);
+}
+
+const enPool=W.map(x=>x.e), koPool=W.map(x=>x.k), synPool=W.map(x=>x.s);
+
+const BAD={"primary": ["entire"], "entire": ["primary"], "proof": ["status"], "status": ["proof"], "supply": ["equip", "transport"], "equip": ["supply"], "contribution": ["donate"], "donate": ["contribution"], "volume": ["proportion"], "proportion": ["volume"], "ease": ["slightly"], "slightly": ["ease"], "progress": ["attempt"], "attempt": ["progress"], "publication": ["procedure"], "procedure": ["publication"], "recruit": ["volunteer"], "volunteer": ["recruit"], "standard": ["priority"], "priority": ["standard"], "subsequent": ["prospective"], "prospective": ["subsequent"], "relevant": ["substantial"], "substantial": ["relevant"], "organization": ["presence"], "presence": ["organization"], "victim": ["violent"], "violent": ["victim"], "discover": ["encounter"], "encounter": ["discover"], "closely": ["widely"], "widely": ["closely"], "transport": ["supply"], "classify": ["taste"], "taste": ["classify"]};
+const byE={};W.forEach(w=>byE[w.e]=w);
+const bad=w=>(BAD[w.e]||[]).map(x=>byE[x]).filter(Boolean);
+W.forEach((w,i)=>{
+  const ex=bad(w).map(x=>x.k);
+  renderQ(document.getElementById('p1'),'p1',i+1,'<b>'+w.e+'</b> 의 뜻으로 알맞은 것은?',
+    [w.k,...distract(w.k,koPool.filter(x=>!ex.includes(x)))], w.k, w.n);
+});
+W.forEach((w,i)=>{
+  const ex=bad(w).map(x=>x.e);
+  renderQ(document.getElementById('p2b'),'p2',i+1,'<b>'+w.k+'</b> 에 해당하는 영어 단어는?',
+    [w.e,...distract(w.e,enPool.filter(x=>!ex.includes(x)))], w.e, w.p+' · '+w.n);
+});
+W.forEach((w,i)=>{
+  const ex=bad(w).map(x=>x.s);
+  renderQ(document.getElementById('p3b'),'p3',i+1,'<b>'+w.e+'</b> 의 동의어(유의어)로 가장 알맞은 것은?',
+    [w.s,...distract(w.s,synPool.filter(x=>!ex.includes(x)))], w.s, w.k+' · '+w.n);
+});
+CONF.forEach((c,i)=>{
+  renderQ(document.getElementById('p4b'),'p4',i+1,c.q,c.o,c.a,c.e);
+});
+DAILY.forEach((d,i)=>{
+  renderQ(document.getElementById('p5b'),'p5',i+1,d.q,d.o,d.a,d.e);
+});
+</script>
+</body>
+</html>
